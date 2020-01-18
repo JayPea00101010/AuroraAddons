@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Fighting with Style</name>
+    	<description>Three Fighing Styles from Reddit</description>
+    	<author url="https://www.reddit.com/r/UnearthedArcana/comments/dz2es3/fighting_with_style_3_additional_fighting_styles/">u/Xyrlian</author>
+		<update version="0.0.1">
+			<file name="FightingWithStyle.xml" url="https://raw.githubusercontent.com/community-elements/elements-reddit/master/reddit/reddit-unearthed-arcana/archetypes/druid-strangebeasts.xml" />
+		</update>
+	</info>
+
+	<!-- fighting styles -->
+	<element name="Blade and Dagger" type="Class Feature" source="Reddit: Unearthed Arcana" id="ID_RDDT_CLASS_FEATURE_FIGHTINGSTYLE_BLADE_AND_DAGGER">
+		<supports>Fighting Style, Fighter, Paladin, Ranger</supports>
+		<description>
+			<p>When a creature you can see within 5 feet of you targets you with a melee weapon attack, you can use your reaction to gain a +2 bonus to AC until the end of the creature's turn. you must be wielding a bladed weapon and a dagger to use this reaction.</p>
+		</description>
+		<sheet>
+			<description>When a creature you can see within 5 feet of you targets you with a melee weapon attack, you can use your reaction to gain a +2 bonus to AC until the end of the creature's turn. you must be wielding a bladed weapon and a dagger to use this reaction.</description>
+		</sheet>
+	</element>
+	<element name="Cloak and Blade" type="Class Feature" source="Reddit: Unearthed Arcana" id="ID_RDDT_CLASS_FEATURE_FIGHTINGSTYLE_CLOAK_AND_BLADE">
+		<supports>Fighting Style, Fighter, Paladin, Ranger</supports>
+		<description>
+			<p>When a creature you can see within 5 feet of you targets you with a melee weapon attack, you can use your reaction to impose disadvantage on the attack roll. You must have a free hand and be wearing a cloak to use this reaction.</p>
+		</description>
+		<sheet>
+			<description>When a creature you can see within 5 feet of you targets you with a melee weapon attack, you can use your reaction to impose disadvantage on the attack roll. You must have a free hand and be wearing a cloak to use this reaction.</description>
+		</sheet>
+	</element>
+	<element name="Gauntlet Defence" type="Class Feature" source="Reddit: Unearthed Arcana" id="ID_RDDT_CLASS_FEATURE_FIGHTINGSTYLE_GAUNTLET_DEFENCE">
+		<supports>Fighting Style, Fighter, Paladin, Ranger</supports>
+		<description>
+			<p>When a creature you can see within 5 feet of you targets you with a melee weapon attack, you can choose to make a strength or dexterity saving throw (your choice). the DC equals the creaature's weapon attack roll. if you succeed, you gain resistance to bludgeoning, piercing, and slashing damage from the triggering attack. You must have an armoured free hand to use this reaction.</p>
+		</description>
+		<sheet>
+			<description>When a creature you can see within 5 feet of you targets you with a melee weapon attack, you can choose to make a strength or dexterity saving throw (your choice). the DC equals the creaature's weapon attack roll. if you succeed, you gain resistance to bludgeoning, piercing, and slashing damage from the triggering attack. You must have an armoured free hand to use this reaction.</description>
+		</sheet>
+	</element>
+</elements>
