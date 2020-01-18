@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index>
-	<info>
-		<name>Addon Archetypes</name>
-		<update version="0.0.1">
-			<file name="archetypes.index" url="placeholder"	/>
-		</update>
-	</info>
-	<files>
-    <!-- Files go here -->
-  </files>
+    <info>
+	<name>Addon Archetypes</name>
+	<update version="0.0.1">
+		<file name="archetypes.index" url="placeholder"	/>
+	</update>
+    </info>
+    <files>
+        <!-- Files go here -->
+    </files>
 </index>
