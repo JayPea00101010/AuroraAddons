@@ -12,7 +12,7 @@
 		<setters>
 			<set name="abbreviation">ADD</set>
 			<set name="url">https://www.youtube.com/watch?v=dQw4w9WgXcQ</set>
-			<set name="author" abbreviation="ADD"A collection of random stuff</set>
+			<set name="author" abbreviation="ADD"> A collection of random stuff</set>
 			<set name="homebrew">true</set>
 		</setters>
 	</element>
