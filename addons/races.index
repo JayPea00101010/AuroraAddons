@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Addon Races</name>
+		<update version="0.0.1">
+			<file name="races.index" url="placeholder"	/>
+		</update>
+	</info>
+	<files>
+    <!-- Files go here -->
+  </files>
+</index>
