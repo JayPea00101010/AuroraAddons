@@ -7,6 +7,6 @@
 	</update>
     </info>
     <files>
-        <!-- Files go here -->
+	<file name="FightingWithStyle.xml" url="https://raw.githubusercontent.com/JayPea00101010/AuroraAddons/master/addons/other/FightingWithStyle.xml" />  
     </files>
 </index>
