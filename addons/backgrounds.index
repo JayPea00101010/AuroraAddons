@@ -3,7 +3,7 @@
     <info>
 	<name>Addon Backgrounds</name>
 	<update version="0.0.1">
-		<file name="backgrounds.index" url="placeholder"	/>
+		<file name="backgrounds.index" url="https://raw.githubusercontent.com/JayPea00101010/AuroraAddons/master/addons/backgrounds.index"	/>
 	</update>
     </info>
     <files>
