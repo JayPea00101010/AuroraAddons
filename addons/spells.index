@@ -3,7 +3,7 @@
     <info>
 	<name>Addon Spells</name>
 	<update version="0.0.1">
-		<file name="spells.index" url="placeholder"	/>
+		<file name="spells.index" url="https://raw.githubusercontent.com/JayPea00101010/AuroraAddons/master/addons/spells.index"/>
 	</update>
     </info>
     <files>
