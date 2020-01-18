@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<update version="0.0.1">
+			<file name="addons.index" url="placeholder" />
+		</update>
+	</info>
+	<files>
+		<file name="source.xml" url="placeholder" />
+		
+		<!-- race stuff -->
+		<file name="races.index" url="placeholder"/>
+		<file name="subraces.index" url="placeholder"/>
+    
+		<!-- class stuff -->
+		<file name="classes.index" url="placeholder"/>
+		<file name="archetypes.index" url="placeholder"/>
+		
+		<!-- backgrounds -->
+		<file name="backgrounds.index" url="placeholder"/>
+
+		<!-- spells -->
+		<file name="spells.index" url="placeholder"	/>
+    
+		<!-- equipment -->
+		<file name="equimpment.index" url="placeholder"	/>
+    
+		<!-- other -->
+		<file name="other.index" url="placeholder"	/>
+
+	</files>
+</index>
