@@ -3,7 +3,7 @@
     <info>
 	<name>Addon Classes</name>
 	<update version="0.0.1">
-		<file name="classes.index" url="placeholder"	/>
+		<file name="classes.index" url="https://raw.githubusercontent.com/JayPea00101010/AuroraAddons/master/addons/classes.index"	/>
 	</update>
     </info>
     <files>
