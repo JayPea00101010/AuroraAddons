@@ -2,31 +2,34 @@
 <index>
 	<info>
 		<update version="0.0.1">
-			<file name="addons.index" url="placeholder" />
+			<file name="addons.index" url="https://raw.githubusercontent.com/JayPea00101010/AuroraAddons/master/addons.index" />
 		</update>
 	</info>
 	<files>
-		<file name="source.xml" url="placeholder" />
+		<file name="source.xml" url="https://raw.githubusercontent.com/JayPea00101010/AuroraAddons/master/addons/source.xml" />
 		
 		<!-- race stuff -->
-		<file name="races.index" url="placeholder"/>
-		<file name="subraces.index" url="placeholder"/>
+		<file name="races.index" url="https://raw.githubusercontent.com/JayPea00101010/AuroraAddons/master/addons/races.index"/>
+		<file name="subraces.index" url="https://raw.githubusercontent.com/JayPea00101010/AuroraAddons/master/addons/subraces.index"/>
     
 		<!-- class stuff -->
-		<file name="classes.index" url="placeholder"/>
-		<file name="archetypes.index" url="placeholder"/>
+		<file name="classes.index" url="https://raw.githubusercontent.com/JayPea00101010/AuroraAddons/master/addons/classes.index"/>
+		<file name="archetypes.index" url="https://raw.githubusercontent.com/JayPea00101010/AuroraAddons/master/addons/architypes.index"/>
 		
 		<!-- backgrounds -->
-		<file name="backgrounds.index" url="placeholder"/>
+		<file name="backgrounds.index" url="https://raw.githubusercontent.com/JayPea00101010/AuroraAddons/master/addons/backgrounds.index"/>
 
 		<!-- spells -->
-		<file name="spells.index" url="placeholder"	/>
+		<file name="spells.index" url="https://raw.githubusercontent.com/JayPea00101010/AuroraAddons/master/addons/spells.index"/>
     
 		<!-- equipment -->
-		<file name="equimpment.index" url="placeholder"	/>
-    
+		<file name="equimpment.index" url="https://raw.githubusercontent.com/JayPea00101010/AuroraAddons/master/addons/equipment.index"/>
+
+		<!-- feats -->
+		<file name="feats.index" url="https://raw.githubusercontent.com/JayPea00101010/AuroraAddons/blob/master/addons/feats.index"/>
+
 		<!-- other -->
-		<file name="other.index" url="placeholder"	/>
+		<file name="other.index" url="https://raw.githubusercontent.com/JayPea00101010/AuroraAddons/master/addons/other.index"/>
 
 	</files>
 </index>
