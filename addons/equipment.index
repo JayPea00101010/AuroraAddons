@@ -3,7 +3,7 @@
     <info>
 	<name>Addon Equipment</name>
 	<update version="0.0.1">
-		<file name="equipment.index" url="placeholder"	/>
+		<file name="equipment.index" url="https://raw.githubusercontent.com/JayPea00101010/AuroraAddons/master/addons/equipment.index"	/>
 	</update>
     </info>
     <files>
