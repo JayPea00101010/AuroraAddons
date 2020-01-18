@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.1">
+			<file name="source.xml" url="placeholder" />
+		</update>
+	</info>
+	<element name="Additional" type="Source" source="Core" id="ID_SOURCE_ADDITIONAL">
+		<description>
+			<![CDATA[<p>Additional homebrew content with less bugtesting before pulls than the main repo.</p>]]>
+		</description>
+		<setters>
+			<set name="abbreviation">ADD</set>
+			<set name="url">https://www.youtube.com/watch?v=dQw4w9WgXcQ</set>
+			<set name="author" abbreviation="ADD"A collection of random stuff</set>
+			<set name="homebrew">true</set>
+		</setters>
+	</element>
+</elements>
