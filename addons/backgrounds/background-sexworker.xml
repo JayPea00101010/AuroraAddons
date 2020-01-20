@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Sex Worker</name>
+		<description>Sex Worker Background</description>
+		<author url="https://www.dandwiki.com/wiki/Sex_Worker_(5e_Background)">placeholder author</author>
+		<update version="0.2.0">
+			<file name="background-sexworker.xml" url="https://raw.githubusercontent.com/JayPea00101010/AuroraAddons/master/addons/backgrounds/background-sexworker.xml" />
+		</update>
+	</info>
+
+    <element name="Sex Worker" type="Background" source="D&amp;D Wiki" id="ID_WIKI_BACKGROUND_SEX_WORKER">
+        <description>
+            <p>You serve patrons in exchange for money. You have experienced different types of humanoids of various alignments and perhaps lived in various places due to changes in the law in regards to prostitution. Other times you are unable to move out and have to break the law in order to survive, though living comfortably at least with high rates for such services even if the business in this field is low. You are able to gather new clients as well as maintain them with your years of seduction as well as performing niche sex acts with ease. </p>			
+			<p>			
+				<strong>Skill Proficiencies:</strong> Performance, Persuasion<br />
+				<strong>Tool Proficiencies:</strong>One type of gaming set <br/>
+				<strong>Equipment:</strong> A set of fine clothes, the favor of an admirer (perfume, manacles, mirror or a trinket), a costume, and a belt pouch containing 15 gp. <br/>
+            </p>
+            <div element="ID_WIKI_BACKGROUND_FEATURE_SEX_WORKER_DESIRED_ONE" />
+        </description>
+        <setters>
+            <set name="sourceUrl">https://www.dandwiki.com/wiki/Sex_Worker_(5e_Background)</set>
+        </setters>
+        <rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERFORMANCE" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION" />
+			<select type="Proficiency" name="Tool proficiency (Sex Worker)" supports="Gaming Set" number="1" />
+			<grant type="Background Feature" id="ID_WIKI_BACKGROUND_FEATURE_SEX_WORKER_DESIRED_ONE" />
+            <select name="Personality Trait" type="List" number="2">
+                <item id="1">I like bringing joy to my clients. </item>
+                <item id="2">I enjoy company; the more, the merrier.  </item>
+                <item id="3">I love to compete both in and out of bed. </item>
+                <item id="4">I'm quite shy at first, but I get wild when I'm turned on. </item>
+                <item id="5">I can take care of myself. </item>
+                <item id="6">I'm sexy and I know it. </item>
+                <item id="7">Give me whatever you have and I will service you. </item>
+                <item id="8">I'm the best at what I do. </item>
+            </select>
+            <select name="Ideal" type="List">
+                <item id="1">Respect. I respect all races, no matter what they do. (Neutral) </item>
+                <item id="2">Freedom. Everyone should be able to choose as they please in and out of bed. (Good) </item>
+                <item id="3">Naughtiness. Let's get wild and party! Orgy!!! (Chaotic) </item>
+                <item id="4">Obligation. With a great body, comes great responsibility. (Any non-evil) </item>
+                <item id="5">Corruption. With my perfect body, I will bend people to my will. (Evil)  </item>
+                <item id="6">Understanding. I know how difficult it is to be a sex worker. (Any) </item>
+            </select>
+            <select name="Bond" type="List">
+                <item id="1">I am close to (some of) my clients in an intimate way. </item>
+                <item id="2">All sex workers are my friend, unless they disrespect me.</item>
+                <item id="3">Criminals that want my service protect me. </item>
+                <item id="4">I save money for those I love. </item>
+                <item id="5">I owe money for (wizard) schooling. I have friends/teachers/professors from school. </item>
+                <item id="6">I listen to those I relate to. </item>
+            </select>
+            <select name="Flaw" type="List">
+                <item id="1">I easily give in to money and pleasure. </item>
+                <item id="2">I do not think about consequences of my actions. </item>
+                <item id="3">I only care about myself and my perfections. </item>
+                <item id="4">I am disgusted by certain races. </item>
+                <item id="5">I am a loner who only finds intimacy through sex.</item>
+                <item id="6">My family does not approve of my work. </item>
+            </select>
+        </rules>
+    </element>
+    <element name="Desired One" type="Background Feature" source="D&amp;D Wiki" id="ID_WIKI_BACKGROUND_FEATURE_SEX_WORKER_DESIRED_ONE">
+		<supports>Background Feature</supports>
+        <description>
+            <p>Patrons of all walks of life will want you and will be willing to pay if they can to have fun with you. You do not pay lifestyle expenses as long as you service your patron(s). Otherwise, you pay if no one pays you for your looks and/or services. Also, some humanoids may be hostile towards your way of life as a sex worker. Some from different levels of society may be jealous of how many try to gather around you for your affection. Your patrons may aid you when you are under attack and will help you and allies of yours get to safety from danger or the law, depending on patrons alignment and how much affection the person has for you.</p>
+        </description>
+		<sheet alt="Desired One" />
+    </element>
+</elements>
