@@ -7,6 +7,5 @@
 	</update>
     </info>
     <files>
-        <!-- Files go here -->
-    </files>
+	<file name="background-sexworker.xml" url="https://raw.githubusercontent.com/JayPea00101010/AuroraAddons/master/addons/backgrounds/background-sexworker.xml" />      </files>
 </index>
