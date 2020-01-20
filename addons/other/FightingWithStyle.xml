@@ -5,7 +5,7 @@
     	<description>Three Fighing Styles from Reddit</description>
     	<author url="https://www.reddit.com/r/UnearthedArcana/comments/dz2es3/fighting_with_style_3_additional_fighting_styles/">u/Xyrlian</author>
 		<update version="0.0.1">
-			<file name="FightingWithStyle.xml" url="https://raw.githubusercontent.com/community-elements/elements-reddit/master/reddit/reddit-unearthed-arcana/archetypes/druid-strangebeasts.xml" />
+			<file name="FightingWithStyle.xml" url="https://raw.githubusercontent.com/JayPea00101010/AuroraAddons/master/addons/other/FightingWithStyle.xml" />
 		</update>
 	</info>
 
