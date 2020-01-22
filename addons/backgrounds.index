@@ -2,7 +2,7 @@
 <index>
     <info>
 	<name>Addon Backgrounds</name>
-	<update version="0.0.1">
+	<update version="0.0.2">
 		<file name="backgrounds.index" url="https://raw.githubusercontent.com/JayPea00101010/AuroraAddons/master/addons/backgrounds.index"	/>
 	</update>
     </info>
