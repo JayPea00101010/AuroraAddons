@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>D&amp;D Wiki metamagic</name>
+    <description>Metamagic options from D&amp;D Wiki.</description>
+    <author url="https://www.dandwiki.com/Wiki/">D&amp;D Wiki</author>
+    <update version="0.0.1">
+      <file name="wiki-metamagic.xml" url="https://raw.githubusercontent.com/JayPea00101010/AuroraAddons/master/addons/other/wiki-metamagic.xm" />
+    </update>
+  </info>
+  
+  <element name="Maximised Spell" type="Class Feature" source="D&amp;D Wiki" id="ID_WIKI_CLASS_FEATURE_SORCERER_METAMAGIC_MAXIMISED_SPELL">
+		<supports>Metamagic</supports>
+		<description>
+			<p>Before you roll damage for a spell you can expend sorcery points equivilent to the spells level (1 for a cantrip, 1 for 1st level, 2 for second etc) you can choose one roll made in that spell and use the maximum possible, this could be one die of damage or something else.</p>
+			<p class="indent">You can use Maximised Spell even if you have already used a different Metamagic option during the casting of the spell.</p>
+		</description>
+		<sheet>
+			<description>Before you roll damage for a spell you can expend sorcery points equivilent to the spells level (1 for a cantrip, 1 for 1st level, 2 for second etc) you can choose one roll made in that spell and use the maximum possible, this could be one die of damage or something else.You can use Maximised Spell even if you have already used a different Metamagic option during the casting of the spell.</description>
+		</sheet>
+	</element>
+
+	<element name="Area Control" type="Class Feature" source="D&amp;D Wiki" id="ID_WIKI_CLASS_FEATURE_SORCERER_METAMAGIC_AREA_CONTROL">
+		<supports>Metamagic</supports>
+		<description>
+			<p>When you cast an area spell, you can select certain spaces under the area and declare that they are not to be affected. Creatures in this space avoid the spell's effect. This takes 1 sorcery point per ten squares effected by a spell (eg. a 10x10 spell has 4 squares therefore 1 point, a 30x30 spell has 36 squares therefore 4 points.)</p>
+			<p class="indent">You can use Area Control even if you have already used a different Metamagic option during the casting of the spell.</p>
+		</description>
+		<sheet>
+			<description>When you cast an area spell, you can select certain spaces under the area and declare that they are not to be affected. Creatures in this space avoid the spell's effect. This takes 1 sorcery point per ten squares effected by a spell (eg. a 10x10 spell has 4 squares therefore 1 point, a 30x30 spell has 36 squares therefore 4 points.) You can use Area Control even if you have already used a different Metamagic option during the casting of the spell.</description>
+		</sheet>
+	</element>
+
+	<element name="Bane Spell" type="Class Feature" source="D&amp;D Wiki" id="ID_WIKI_CLASS_FEATURE_SORCERER_METAMAGIC_BANE_SPELL">
+		<supports>Metamagic</supports>
+		<description>
+			<p>You may choose one type of creature and gain extra damage against it, this creature is declared after a long rest and can be reset after each long rest, you may only have one Bane at a time. Any variable, numeric affect is doubled when the chosen type is the target. For instance, a Bane Spell (dragon) magic missile would deal 2d4 + 1 per bolt against dragons. This takes 1 sorcery point per die doubled (1d4 is one point, 3d6 is 3 points).</p>
+			<p class="indent">You can use Bane Spell even if you have already used a different Metamagic option during the casting of the spell.</p>
+		</description>
+		<sheet>
+			<description>You may choose one type of creature and gain extra damage against it, this creature is declared after a long rest and can be reset after each long rest, you may only have one Bane at a time. Any variable, numeric affect is doubled when the chosen type is the target. For instance, a Bane Spell (dragon) magic missile would deal 2d4 + 1 per bolt against dragons. This takes 1 sorcery point per die doubled (1d4 is one point, 3d6 is 3 points). You can use Bane Spell even if you have already used a different Metamagic option during the casting of the spell.</description>
+		</sheet>
+	</element>
+
+	<element name="Blasting Spell" type="Class Feature" source="D&amp;D Wiki" id="ID_WIKI_CLASS_FEATURE_SORCERER_METAMAGIC_BLASTING_SPELL">
+		<supports>Metamagic</supports>
+		<description>
+			<p>Any spell that deals fire damage detonates in a concussive explosion. If you hit a target with a blasting spell all targets within 5 ft of the person who recieves damage get blasted back 10ft per sorcery point spent, when they land they become prone if they were launched 20ft or more.</p>
+			<p class="indent">You can use Blasting Spell even if you have already used a different Metamagic option during the casting of the spell.</p>
+		</description>
+		<sheet>
+			<description>Any spell that deals fire damage detonates in a concussive explosion. If you hit a target with a blasting spell all targets within 5 ft of the person who recieves damage get blasted back 10ft per sorcery point spent, when they land they become prone if they were launched 20ft or more. You can use Blasting Spell even if you have already used a different Metamagic option during the casting of the spell.</description>
+		</sheet>
+	</element>
+</elements>
