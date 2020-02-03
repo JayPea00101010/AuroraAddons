@@ -2,11 +2,11 @@
 <index>
     <info>
 	<name>Addon Equipment</name>
-	<update version="0.0.1">
+	<update version="0.0.2">
 		<file name="equipment.index" url="https://raw.githubusercontent.com/JayPea00101010/AuroraAddons/master/addons/equipment.index"	/>
 	</update>
     </info>
     <files>
-        <!-- Files go here -->
+	<file name="griffonsSaddlebag.xml" url="https://raw.githubusercontent.com/JayPea00101010/AuroraAddons/master/addons/equipment/griffonsSaddlebag.xml" />
     </files>
 </index>
