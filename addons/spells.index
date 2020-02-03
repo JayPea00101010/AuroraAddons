@@ -7,6 +7,6 @@
 	</update>
     </info>
     <files>
-        <file name="FightingWithStyle.xml" url="https://raw.githubusercontent.com/JayPea00101010/AuroraAddons/master/addons/spells/wiki-spells.xml" />
+        <file name="wiki-spells.xml" url="https://raw.githubusercontent.com/JayPea00101010/AuroraAddons/master/addons/spells/wiki-spells.xml" />
     </files>
 </index>
