@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>Griffon's Saddlebag Feats</name>
+    <description>Feats from Griffon's Saddlebag.</description>
+    <author url="https://www.thegriffonssaddlebag.com/">Griffon's Saddlebag</author>
+    <update version="0.0.1">
+      <file name="griffonsSaddlebag.xml.xml" url="https://raw.githubusercontent.com/JayPea00101010/AuroraAddons/master/addons/equipment/griffonsSaddlebag.xml" />
+    </update>
+  </info>
+  
+	<element name="Hour" type="Magic Item" source="Griffon's Saddlebag" id="ID_WOTC_DMG_MAGIC_ITEM_HOUR">
+		<description>
+			<p>All attacks made with this weapon if attuned to either it or Minute gain a +1 to hit and a +1 to damage. You also get a +2 to AC if both of these weapons are equipped</p>
+			<p class="indent">Any critical hits made with this weapon induce the effects of the <i>Slow</i> spell on the target.</p>
+		</description>
+		<setters>
+			<set name="keywords">Shortsword</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="attunement">true</set>
+			<set name="type" addition="Shortsword">Weapon</set>
+			<set name="rarity">Legendary</set>
+			<set name="weapon">Shortsword</set>
+			<set name="enhancement">1</set>
+			<set name="name-format">Hour</set>
+			<set name="armorClass">+1</set>
+		</setters>
+		<rules>
+			<stat name="ac" value="1"/>
+		</rules>
+	</element>
+
+	<element name="Minute" type="Magic Item" source="Griffon's Saddlebag" id="ID_WOTC_DMG_MAGIC_ITEM_MINUTE">
+		<description>
+			<p>All attacks made with this weapon if attuned to either it or Hour gain a +1 to hit and a +1 to damage. You also get a +2 to AC if both of these weapons are equipped</p>
+			<p class="indent">Any critical hits made with this weapon induce the effects of the <i>Haste</i> spell on the wielder.</p>
+		</description>
+		<setters>
+			<set name="keywords">Longsword</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="attunement">true</set>
+			<set name="type" addition="Longsword">Weapon</set>
+			<set name="rarity">Legendary</set>
+			<set name="weapon">Longsword</set>
+			<set name="enhancement">1</set>
+			<set name="name-format">Minute</set>
+			<set name="armorClass">+1</set>
+		</setters>
+		<rules>
+			<stat name="ac" value="1"/>
+		</rules>
+	</element>
+		
+	<element name="Aurum" type="Magic Item" source="Griffon's Saddlebag" id="ID_WOTC_DMG_MAGIC_ITEM_AURUM">
+		<description>
+			<p>All attacks made with this weapon if attuned to either it or Argentum gain a +1 to hit and a +1 to damage. If you engage in two weapon fighting with both of these weapons you can add your ability modefier to the attack made with the second dagger. Additionally if you make a critical hit with the first dagger you gain advantage on the attack roll with the second dagger.</p>
+			<p><b>Tandem Critical:</b> Additionally if you make a critical hit with the first dagger you gain advantage on the attack roll with the second dagger.</p>
+			<p class="indent">If this dagger hits with the advantage granted by the tandem critical feature it deals an additional 1d4 fire damage.</p>
+		</description>
+		<setters>
+			<set name="keywords">Shortsword</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="attunement">true</set>
+			<set name="type" addition="Shortsword">Weapon</set>
+			<set name="rarity">Legendary</set>
+			<set name="weapon">Shortsword</set>
+			<set name="enhancement">1</set>
+			<set name="name-format">Aurum</set>
+		</setters>
+	</element>
+
+	<element name="Argentum" type="Magic Item" source="Griffon's Saddlebag" id="ID_WOTC_DMG_MAGIC_ITEM_ARGENTUM">
+		<description>
+			<p>All attacks made with this weapon if attuned to either it or Aurum gain a +1 to hit and a +1 to damage. If you engage in two weapon fighting with both of these weapons you can add your ability modefier to the attack made with the second dagger. Additionally if you make a critical hit with the first dagger you gain advantage on the attack roll with the second dagger.</p>
+			<p><b>Tandem Critical:</b> Additionally if you make a critical hit with the first dagger you gain advantage on the attack roll with the second dagger.</p>
+			<p class="indent">If this dagger hits with the advantage granted by the tandem critical feature it deals an additional 1d4 cold damage.</p>
+		</description>
+		<setters>
+			<set name="keywords">Shortsword</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="attunement">true</set>
+			<set name="type" addition="Shortsword">Weapon</set>
+			<set name="rarity">Legendary</set>
+			<set name="weapon">Shortsword</set>
+			<set name="enhancement">1</set>
+			<set name="name-format">Argentum</set>
+		</setters>
+	</element>
+
+	<element name="Glaive of the Elementals" type="Magic Item" source="Griffon's Saddlebag" id="ID_WOTC_DMG_MAGIC_ITEM_GLAIVE_OF_THE_Elementals">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING,ID_INTERNAL_WEAPON_PROPERTY_REACH, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED,ID_INTERNAL_WEAPON_PROPERTY_FINESSE</supports>
+		<description>
+			<p>Despite its size the superior craftmanship of this glaive maes it light and nimble, this glaive doesn't have the heavy property and is finesse. In addition it has a +3 to attack and damage rolls</p>
+			<p><b>Energy nullification:</b> Additionally if you make a hit on a target with a resistance or immunity you have two options, to steal it temporarily or permanently.</p>
+			<p class="indent">Temporary stealing: once damage has been rolled the creature must make a DC15(for resistance) or DC10(for immunities) constitution saving throw or loose the resistance or immunity for 1d6 rounds. During this time the attuned wielder gains this resistance or immunity.</p>
+			<p class="indent">Permanent stealing: Once per long rest, when you roll damage for an attack you can attempt to permanently steal a resistance or immunity. The target must make a DC7(for resistance) or DC3(for immunities) constitution saving throw. If they fail they permanently loose this resistance or immunity, the attuned wielder of the glaive gains the resistance or immunity. You can ony have one resistance or immunity at one time and if you steal another you must give up the one you currently have</p>
+		</description>
+		<setters>
+			<set name="keywords">Glaive</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="attunement">true</set>
+			<set name="type" addition="Glaive">Weapon</set>
+			<set name="rarity">Legendary</set>
+			<set name="weapon">Glaive</set>
+			<set name="enhancement">3</set>
+			<set name="name-format">Glaive of the Elementals</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_GLAIVE"/>
+		</rules>
+	</element>
+
+	<element name="Morphing Scale Mail" type="Magic Item" source="Griffon's Saddlebag" id="ID_WOTC_DMG_MAGIC_ITEM_MORPGING_SCALE_MAIL">
+		<description>
+			<p>While wearing this armor, you gain a +2 bonus to AC. You can also use a bonus action to speak the armor's command word and cause the armor to assume the appearance of a normal set of clothing, the clothing retains the armour's scale motif and often has a reflective quality much like metal scales.</p>
+		</description>
+		<setters>
+			<set name="keywords">Scale Mail</set>
+			<set name="category">Magic Armor</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">body</set>
+			<set name="type" addition="Scale Mail">Armor</set>
+			<set name="rarity">Rare</set>
+			<set name="armor">Scale Mail</set>
+			<set name="enhancement">2</set>
+		</setters>
+		<rules>
+			<stat name="ac:armored:enhancement" value="2" bonus="enhancement" />
+		</rules>
+	</element>
+
+	<element name="Angler's Armour" type="Magic Item" source="Griffon's Saddlebag" id="ID_WOTC_DMG_MAGIC_ITEM_ANGLER'S_ARMOUR">
+		<description>
+			<p>While wearing this armor, you gain a +1 bonus to AC. You also gain a 30 foot swiming speed and can breathe underwater.</p>
+		</description>
+		<setters>
+			<set name="keywords">Scale Mail</set>
+			<set name="category">Magic Armor</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">body</set>
+			<set name="type" addition="Scale Mail">Armor</set>
+			<set name="rarity">Uncommon</set>
+			<set name="armor">Scale Mail</set>
+			<set name="enhancement">1</set>
+		</setters>
+		<rules>
+			<stat name="ac:armored:enhancement" value="1" bonus="enhancement" />
+			<stat name="speed:swim" value="speed" bonus="30" />
+		</rules>
+	</element>
+
+	<element name="Silver Eagle Studded Curiass" type="Magic Item" source="Griffon's Saddlebag" id="ID_WOTC_DMG_MAGIC_ITEM_SILVER_EAGLE_STUDDED_CURIASS">
+		<description>
+			<p>While wearing this armor, you gain a +1 bonus to AC. Additionally you can use a reaction to speak the command word. Once spoken two ghostly silver wings extend from the back of the curiass and move you ten feet away from the attacker. This motion doesn't provke attacks of opportunity, it also reduces the damage you'd take by 2d6.</p>
+		</description>
+		<setters>
+			<set name="keywords">studded, leather</set>
+			<set name="category">Magic Armor</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">body</set>
+			<set name="type" addition="studded leather">Armor</set>
+			<set name="rarity">Uncommon</set>
+			<set name="armor">Studded Leather</set>
+			<set name="enhancement">1</set>
+		</setters>
+		<rules>
+			<stat name="ac:armored:enhancement" value="1" bonus="enhancement" />
+		</rules>
+	</element>
+
+	<element name="Staff of the Undead Phoenix" type="Magic Item" source="Griffon's Saddlebag" id="ID_WOTC_DMG_MAGIC_ITEM_STAFF_OF_THE_UNDEAD_PHOENIX">
+		<description>
+			<p>All attacks made with this weapon if attuned to it gain a +1 to hit and a +1 to damage. Additionally for any necrotic or fire damage dealt by the wielder either through spell or ability, roll a d20, if the roll is greater than the target's CR then add 5d8 fire damage or 5d8 necrotic damage</p>
+		</description>
+		<setters>
+			<set name="keywords">Quarterstaff</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="attunement">true</set>
+			<set name="type" addition="Quarterstaff">Weapon</set>
+			<set name="rarity">Legendary</set>
+			<set name="weapon">Quarterstaff</set>
+			<set name="enhancement">1</set>
+			<set name="name-format">Staff of the Undead Phoenix</set>
+		</setters>
+	</element>
+
+	<element name="Chain Devil Gauntlets" type="Magic Item" source="Griffon's Saddlebag" id="ID_WOTC_DMG_MAGIC_ITEM_CHAIN_DEVIL_GAUNTLETS">
+		<description>
+		<p>Whilst wearing these gloves the wielder can make a ranged attack on a target they can see within 30 feet. This attack uses dexerity as a to hit and damage bonus and requires proficiency with a whip additionaly they count as a monk weapon. The chains deal 2d6 damage and can be used to grapple a foe (DC 15 escape) There can be two of these chains made by either hand for a total of four chains. The gauntlets also offer a +2 for any unarmed attacks made with them.</p>
+		</description>
+		<setters>
+			<set name="keywords">Gauntlets</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">hands</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="enhancement">2</set>
+			<set name="rarity">Legendary</set>
+		</setters>
+		<rules>
+			<stat name="martial arts:attack" value="2" bonus="enhancement" />
+			<stat name="martial arts:damage" value="2" bonus="enhancement" />
+		</rules>
+	</element>
+
+	<element name="Weaving Wasp Needles" type="Magic Item" source="Griffon's Saddlebag" id="ID_WOTC_DMG_MAGIC_ITEM_WEAVING_WASP_NEEDLES">
+		<description>
+			<p>These darts come in a pair with a faint yellow incorporeal thread between them. When you deal damage with one of the needles it begins to circle a target and continues to make attacks against it without your input for 6 rounds. If within those six rounds you deal damage with the other needle the second needle pairs with the first and the thread binds the target (DC15 escape check) dealing 2d6 piercing damage per turn.</p>
+			<p>Additionally these darts act as weavers tools with a +5 to all checks. They can act independently to the user and don't require the user to hold them whilst they work</p>
+		</description>
+		<setters>
+			<set name="keywords">Dart</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="attunement">true</set>
+			<set name="type" addition="Dart">Weapon</set>
+			<set name="rarity">Legendary</set>
+			<set name="weapon">Dart</set>
+			<set name="name-format">Weaving Wasp Needles</set>
+		</setters>
+	</element>
+
+	<element name="Revjuvenating Draft" type="Magic Item" source="Griffon's Saddlebag" id="ID_WOTC_DMG_MAGIC_ITEM_REJUVENATING_DRAFT">		
+		<description>
+			<p>Once drunk you regain 1d3+1 (uncommon), 1d4+3 (rare), 1d6+4 (very rare) or all (legendary) spent hit dice. When a legendary rejuvenating draft is drunk the consumer gets 1d4 years younger.</p>
+		</description>
+		<setters>
+			<set name="category">Potions</set>
+			<set name="weight" lb="0.5">½ lb.</set>
+			<set name="type">Potion</set>
+			<set name="rarity">Variable</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Bloody Marilith" type="Magic Item" source="Griffon's Saddlebag" id="ID_WOTC_DMG_MAGIC_ITEM_BLOODY_MARILITH">		
+		<description>
+			<p>The potion is crimson red in colour and has thick viscous consistancy, it tastes of hot peppers, spice and soured tomato juice. It is a very alcoholic beverage that effects people far more than normal. Once drunk you are able to take a reaction on every turn for 1d10 minutes</p>
+		</description>
+		<setters>
+			<set name="category">Potions</set>
+			<set name="weight" lb="0.5">½ lb.</set>
+			<set name="type">Potion</set>
+			<set name="rarity">Rare</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Whispy sour" type="Magic Item" source="Griffon's Saddlebag" id="ID_WOTC_DMG_MAGIC_ITEM_WHISPY_SOUR">		
+		<description>
+			<p>This alcoholic beverage is magical in nature and therefore effects people twice as much as other beverages, it tastes like sweet cherries with a sour aftertaste. Once drunk you gain a flying speed of 10 feet for 1 minute but can only hover 2 feet above the ground.</p>
+		</description>
+		<setters>
+			<set name="category">Potions</set>
+			<set name="cost" currency="gp">50</set>
+			<set name="weight" lb="0.5">½ lb.</set>
+			<set name="type">Potion</set>
+			<set name="rarity">Common</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Shifer's Shine" type="Magic Item" source="Griffon's Saddlebag" id="ID_WOTC_DMG_MAGIC_ITEM_SHIFTER'S_SHINE">		
+		<description>
+			<p>This alcoholic beverage is magical in nature and therefore effects people twice as much as other beverages, it tastes of caramel. Once drunk your skin appears more vibrant, you gain advantage on charisma checks for 1 hour but only if the person can see you.</p>
+		</description>
+		<setters>
+			<set name="category">Potions</set>
+			<set name="weight" lb="0.5">½ lb.</set>
+			<set name="type">Potion</set>
+			<set name="rarity">Uncommon</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Djinn and Tonic" type="Magic Item" source="Griffon's Saddlebag" id="ID_WOTC_DMG_MAGIC_ITEM_DJINN_AND_TONIC">		
+		<description>
+			<p>This alcoholic beverage is magical in nature and therefore effects people twice as much as other beverages it tastes smooth and bubbly with notes of juniper, elderberries, lavender and peach. Once drunk magical wind begins to make you more dramatic. Billowing hair, cloaks or clothing.</p>
+		</description>
+		<setters>
+			<set name="category">Potions</set>
+			<set name="weight" lb="0.5">½ lb.</set>
+			<set name="type">Potion</set>
+			<set name="rarity">Common</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Djinn and Tonic" type="Magic Item" source="Griffon's Saddlebag" id="ID_WOTC_DMG_MAGIC_ITEM_DJINN_AND_TONIC">		
+		<description>
+			<p>This alcoholic beverage is magical in nature and therefore effects people twice as much as other beverages this rare version tastes better, it tastes smooth and bubbly with notes of juniper, elderberries, lavender and peach. Once drunk you gain a gaseous form. You become incorporeal, able to move through non magical difficult terrain as if it were normal, you can pass through very thin walls additionally non magical attacks pass through you for half an hour.</p>
+		</description>
+		<setters>
+			<set name="category">Potions</set>
+			<set name="weight" lb="0.5">½ lb.</set>
+			<set name="type">Potion</set>
+			<set name="rarity">Rare</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Celestial Sunrise" type="Magic Item" source="Griffon's Saddlebag" id="ID_WOTC_DMG_MAGIC_ITEM_CELESTIAL_SUNRISE">		
+		<description>
+			<p>This alcoholic beverage is magical in nature and therefore effects people twice as much as other beverages, it tastes like orange, honey and pinaple with a faint hint of pomegranate. Once drunk you shine, castng bright light for 30 feet and dim light a further 30 feet. </p>
+		</description>
+		<setters>
+			<set name="category">Potions</set>
+			<set name="weight" lb="0.5">½ lb.</set>
+			<set name="type">Potion</set>
+			<set name="rarity">Common</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Bath Potion" type="Magic Item" source="Griffon's Saddlebag" id="ID_WOTC_DMG_MAGIC_ITEM_BATH_POTION">		
+		<description>
+			<p>This alcoholic beverage is magical in nature and therefore effects people twice as much as other beverages, it tastes sweet. Once drunk any form of dirt or grime falls of the consumer and they smell like flowers.</p>
+		</description>
+		<setters>
+			<set name="category">Potions</set>
+			<set name="weight" lb="0.5">½ lb.</set>
+			<set name="type">Potion</set>
+			<set name="rarity">Common</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+</elements>
+
