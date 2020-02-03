@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>D&amp;D Wiki Feats</name>
+    <description>Feats from D&amp;D Wiki.</description>
+    <author url="https://www.dandwiki.com/Wiki/">D&amp;D Wiki</author>
+    <update version="0.0.1">
+      <file name="wiki-feats.xml" url="https://raw.githubusercontent.com/JayPea00101010/AuroraAddons/master/addons/feats/wiki-feats.xml" />
+    </update>
+  </info>
+  
+	<element name="Critical Wrath" type="Feat" source="D&amp;D Wiki" id="ID_PHB_FEAT_CRITICAL_WRATH">
+		<prerequisite>Strength 14 or higher</prerequisite>
+		<requirements>[str:14]</requirements>
+		<description>
+			<p><i>Prerequisite: Strength 14 or higher</i></p>
+			<ul>
+				<li>When wielding a melee weapon you're proficient with, gain +1 to attack rolls and deal 1 extra damage die on a critical hit.</li>
+				<li>The critical range with the weapon is made one larger, (20 becomes 19-20, 19-20 becomes 18-20)</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>When wielding a melee weapon you're proficient with, gain +1 to attack rolls and deal 1 extra damage die on a critical hit.
+			The critical range with the weapon is made one larger, (20 becomes 19-20, 19-20 becomes 18-20)</description>
+		</sheet>
+	</element>
+
+	<element name="Lethal Duelist" type="Feat" source="D&amp;D Wiki" id="ID_PHB_FEAT_LETHAL_DUELIST">
+		<prerequisite>Strength 13 or higher</prerequisite>
+		<requirements>[str:13]</requirements>
+		<description>
+			<p><i>Prerequisite: Strength 13 or higher</i></p>
+			<ul>
+				<li>When making an attack with a melee weapon you're proficient with you can choose to impose a penalty up to -5 on the attack roll. If the attack hits add the double the penalty to the damage roll (-1 to hit gives +2 damage)</li>
+				<li>If you score a critical hit with a weapon you're proficient with you can take a bonus action to attack the same target again provided you don't have a shield or weapon in your off hand.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>When making an attack with a melee weapon you're proficient with you can choose to impose a penalty up to -5 on the attack roll. If the attack hits add the double the penalty to the damage roll (-1 to hit gives +2 damage)
+			If you score a critical hit with a weapon you're proficient with you can take a bonus action to attack the same target again provided you don't have a shield or weapon in your off hand.</description>
+		</sheet>
+	</element>
+</elements>
