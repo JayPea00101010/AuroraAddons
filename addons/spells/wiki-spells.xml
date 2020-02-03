@@ -1,0 +1,1612 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>D&amp;D Wiki spells</name>
+    <description>Spells from D&amp;D Wiki.</description>
+    <author url="https://www.dandwiki.com/Wiki/">D&amp;D Wiki</author>
+    <update version="0.0.1">
+      <file name="wiki-spells.xml" url="https://raw.githubusercontent.com/JayPea00101010/AuroraAddons/master/addons/spells/wiki-spells.xml"/>
+    </update>
+  </info>
+
+  <element name="Accelerate/Deccelerate" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_ACCELERATE_DECCELERATE">
+    <supports>Wizard</supports>
+    <description>
+      <p>You can make a minor change to the way a target is affected by time.</p>
+      <p class="indent">You can increase or decrease a targets speed by 10 feet, this includes both horizontal movement such as running and vertical movement such as falling.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">0</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 round</set>
+      <set name="range">30 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Accelerate Self" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_ACCELERATE_SELF">
+    <supports>Wizard, Warlock, Sorcerer</supports>
+    <description>
+      <p>Uttering the Astral words for Time and Accelerate you feel yourself speed up, to you the world seems to be moving at a snail's pace.</p>
+      <p class="indent">Each turn for you caounts as two turns, therefore you can take two movements, two actions, two bonus actions etc. In adition you have advantage on attack rolls and attack rolls have disadvantage on you.</p>
+      <p class="indent"> When the spell ends you gain a level of exhaustion and your speed is reduced to 0 until the end of your next turn</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">5</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 minute</set>
+      <set name="range">self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>  
+  
+  <element name="Acid Spray" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_ACID_SPRAY">
+    <supports>Sorcerer,Warlock</supports>
+    <description>
+      <p>A concentrated ball of acid ejects your hand to a point you choose within range and explodes upon impact. Each creature in a 10-foot-radius sphere centered on that point must make a Dexterity saving throw. A target takes 3d8 acid damage on a failed save, or half as much damage on a successful one.</p>
+      <p class="indent">At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">2</set>
+      <set name="school">Conjuration</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">90 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true </set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">one vial of acid or dilute Poison</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+ <element name="Aerostrike" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_AEROSTRIKE">
+  <supports>Sorcerer, Wizard, Druid</supports>
+  <description>
+    <p>You condense the winds around you to strengthen a strike</p>
+    <p>The next time you make a melee attack instead of using strength as a bonus to dammage you can use your spellcasting ability modifier (this also works with things like arrows where strength isn't normally applied.) Alongside this add 1d6 slashing damage from the swirling air </p>
+  </description>
+  <setters>
+    <set name="keywords"></set>
+    <set name="level">0</set>
+    <set name="school">Evocation</set>
+    <set name="time">1 bonus action</set>
+    <set name="duration">Instantaneous</set>
+    <set name="range">self</set>
+    <set name="hasVerbalComponent">true</set>
+    <set name="hasSomaticComponent">false</set>
+    <set name="hasMaterialComponent">true</set>
+    <set name="materialComponent"> clouds you can see</set>
+    <set name="isConcentration">false</set>
+    <set name="isRitual">false</set>
+  </setters>
+ </element>
+
+ <element name="Afterburner" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_AFTERBURNER">
+  <supports>Sorcerer, Wizard, Warlock</supports>
+  <description>
+    <p>You move 120 feet in a straight line, leaving a plume of fire behind you as you go. While you are using this movement, you do not provoke opportunity attacks, you can move through the spaces of hostile creatures, and moving through difficult terrain doesn't cost you extra movement. If you move through or within 5 feet of a creature's space, that creature must make a Dexterity saving throw, taking 4d6 fire damage on a failed save, or half as much damage on a successful one. A creature can only be made to make this save once per round.</p>
+  </description>
+  <setters>
+    <set name="keywords"></set>
+    <set name="level">3</set>
+    <set name="school">Evocation</set>
+    <set name="time">1 action</set>
+    <set name="duration">Instantaneous</set>
+    <set name="range">self</set>
+    <set name="hasVerbalComponent">true</set>
+    <set name="hasSomaticComponent">true</set>
+    <set name="hasMaterialComponent">false</set>
+    <set name="materialComponent" />
+    <set name="isConcentration">false</set>
+    <set name="isRitual">false</set>
+  </setters>
+ </element>
+
+ <element name="Agonizing Smite" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_AGONIZING_SMITE">
+  <supports>Paladin, Cleric, Wizard, Sorcerer, Warlock</supports>
+  <description>
+    <p>The next time you hit a creature with a melee weapon attack before this spell ends, the weapon sends waves of excruciating pain through the creature's body, and the attack deals an extra 5d8 necrotic damage to the target. Additionally, the target must make a Constitution saving throw. On a failed save, it falls prone and takes 1d8 necrotic damage at the start of its next turn. On a successful save, the target takes half as much damage and doesn't fall prone.</p>
+  </description>
+  <setters>
+    <set name="keywords"></set>
+    <set name="level">4</set>
+    <set name="school">Necromancy</set>
+    <set name="time">1 bonus action</set>
+    <set name="duration">1 minute</set>
+    <set name="range">self</set>
+    <set name="hasVerbalComponent">true</set>
+    <set name="hasSomaticComponent">false</set>
+    <set name="hasMaterialComponent">false</set>
+    <set name="materialComponent" />
+    <set name="isConcentration">true</set>
+    <set name="isRitual">false</set>
+  </setters>
+ </element>
+
+  <element name="Air Slash" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_AIR_SLASH">
+    <supports>Sorcerer, Wizard, Druid</supports>
+    <description>
+      <p>You form a blade of air and fire it towards an enemy with incredible speed</p>
+      <p class="indent">When cast make a ranged spell attack against the enemy, on a hit they take 1d10 slashing damage</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">0</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">120 feet</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Air Wave" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_AIR_WAVE">
+    <supports>Bard, Ranger</supports>
+    <description>
+      <p>With a swing of your weapon, you attack a target within range with a wave of cutting air. Make a melee weapon attack against the target as if you were adjacent to it. If you are wielding one weapon in each hand, your attack deals an additional 1d6 damage. Attacks made with this spell deal slashing damage.</p>
+      <p class="indent">At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, its range increases by 20 feet for each slot level above 1st.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Conjuration</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">30 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Alacrity" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_ALACRITY">
+    <supports>Wizard</supports>
+    <description>
+      <p>Target creature adds 10 feet to its walking speed until the end of its next turn. If you target yourself, this spell lasts till the end of your current turn.</p>
+      <p class="indent">At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, you can target an additional creature for each slot level above 1st.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">60 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Anchor Howl" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_ANCHOR_HOWL">
+    <supports>Paladin</supports>
+    <description>
+      <p>You release an enraging shout laced with magic. Any hostile creature within 60 feet of you that hears your shout must make a Wisdom saving throw. On a failed save, a creature on its next turn must use its action to attack or otherwise harm you with whatever method it believes to be the most effective, and moves into whatever position is most appropriate for this attack. If an affected creature is unable to attack or harm you, it takes whatever action it can to be aggressive towards you.</p>
+      <p class="indent">A creature that cannot hear or cannot be charmed is unaffected by this spell.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">2</set>
+      <set name="school">Enchantment</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 round</set>
+      <set name="range">60 foot radius</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">False</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Angel's arrow" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_ANGELS_ARROW">
+    <supports>Sorcerer, Wizard, Cleric, Paladin</supports>
+    <description>
+      <p>You can bless one arrow or bolt as long as you can touch it.</p>
+      <p class="indent">The weapon now deals radiant damage instead of normal, it lasts 1d4 rounds and can be retrieved if missed as long as the DM allows it.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">0</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">touch</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">one arrow or bolt</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Annihilate" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_ANNIHILATE">
+    <supports>Sorcerer, Wizard, Cleric, Warlock</supports>
+    <description>
+      <p>You obliterate everything in your path, offering up your life force to do so.</p>
+      <p class="indent">To cast the spell the caster must first permanently choose to lose a number of hit points. the number of hit points lost x10 is the number of d20 rolled for damage. This damage is of all types therefore it bypasses all immunities and resistances but is effected by vulnerabilities. For example if a caster chooses to lose 1 hp they cause 10d20 damage to each creature in the spells range.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">9</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">30 Foot radius per hp spent</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent"  />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Antimagic blast" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_ANTIMAGIC_BLAST">
+    <supports>Wizard, Cleric</supports>
+    <description>
+      <p>You fire a bolt of antimagic at an enemy. Make a ranged spell attack against a creature within range. On a hit, that creature must make a saving throw of their spellcasting ability score, taking 3d10 psychic damage on a failed save, or half as much on a successful save (If they have multiple spellcasting ability scores they may choose one, if they have no spellcasting ability scores they automatically succeed their saving throw). Additionally, if they fail their saving throw they become unable to cast spells of 6th level or lower for the duration.</p>
+      <p class="indent">At Higher Levels. When you cast this spell using a spell slot of 7th or higher it deals 1d10 more damage for each slot level above 6th, and the creature can't cast spells of this spell's level or less.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">6</set>
+      <set name="school">Abjuration</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 minute</set>
+      <set name="range">60 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent"> A pinch of powdered iron </set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Apocalypse from the sky" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_APOCALYPSE_FROM_THE_SKY">
+    <supports>Sorcerer, Wizard, Warlock</supports>
+    <description>
+      <p>You call upon the evilest of forces for a destructive spell from which not even you are safe.</p>
+      <p class="indent">All creatures and objects in the area are dealt 20d12 necrotic damage, which ignores all resistances and immunities. The caster is also subject to the damage.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">9</set>
+      <set name="school">Evocation</set>
+      <set name="time">Varied</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">1 Mile radius per minute casting time</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent"  />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Arcane Attraction" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_ARCANE_ATTRACTION">
+    <supports>Sorcerer, Wizard, Warlock</supports>
+    <description>
+      <p>A hand of arcane energies crasp your opponent and pull them towards you.</p>
+      <p class="indent">Once cast on an enemy they make a strength check, if failed they are pulled to the closest avaliable space adjacent to the caster. If there are none, then the hands pull it only five feet, also if they succeed their strength check the hand only pulls them five feet.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">0</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">15 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Arcane Deflection" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_ARCANE_DEFLECTION">
+    <supports>Sorcerer, Wizard, Warlock, Bard</supports>
+    <description>
+      <p>With a wave of your hand, you create a barrier of arcane energy to deflect attacks.</p>
+      <p class="indent">You impose disadvantage on the attack roll against the target.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">0</set>
+      <set name="school">Abjuration</set>
+      <set name="time">1 reaction</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">10 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Arcane Explosion" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_ARCANE_EXPLOSION">
+    <supports>Sorcerer, Wizard</supports>
+    <description>
+      <p>A bright streak flashes from your pointing finger to a point you choose within range and then blossoms with a low roar into an explosion of arcane energy. Each creature in a 20-foot-radius sphere centered on that point must make a Dexterity saving throw. On a failed save, a target takes 3d6 force damage and is pushed 10 feet away from center of spell. On a successful save, the target takes half as much damage and isn’t pushed.</p>
+      <p class="indent">At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, the force damage increases by 1d6 for each slot level above 3rd.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">3</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">150 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent"> A ball of magnesium worth 10 gp </set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Arc Bolt" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_ARC_BOLT">
+    <supports>Wizard,Sorcerer,Warlock</supports>
+    <description>
+      <p>A crackling blue bolt of arcing electricity fires out from your palms. Make a ranged spell attack against the target. On a hit, the target takes 2d8 lightning damage.</p>
+      <p>After each attack, target another creature within 30 ft of the target. The creature must make a Dexterity (Acrobatics) saving throw, with a +1 to their roll for each subsequent bounce after the first. On a failed save, that creature also takes 2d8 lightning damage and the attack bounces again, up to 1 additional bounce target.</p>
+      <p>If there are no other bounce targets, the attack may bounce back to creatures that were targeted earlier, but each time a creature is hit by the attack it gains a +3 to their saving throw and takes 1d8 less damage from each hit.</p>
+      <p>On a successful save, the bolt stops bouncing between targets.</p>
+      <p class="indent">At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, the lightning damage of this spell increases by 1d8 per slot level above 1st, and the maximum number of bounce targets increases by 1.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">60 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Army of One" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_ARMY_OF_ONE">
+    <supports>Wizard</supports>
+    <description>
+      <p>Once cast the caster is initially covered in a pulsing energy slowly gaining in oppacity until the caster is hidden. The energy is then dispelled leaving the caster's new form in its place. Any enemy in a 10 foot radius of the caster when the energy is released take 5d6 lightning damage.</p>
+      <p>The caster's new form has douple the number of hit points as when the caster entered the state and for the purposes of spell has double the number of hit dice.</p>
+      <p>Any spell with casting time 1 action has a casting time of 1 bonus action whilst in this state. Any spell level 4 or below automatically deals the maximum amount of damage possible. Any spell level 5 or above deals double the amount of damage rolled.</p>
+      <p>Any attacks made against you have disadvantage, you have advantage on all ability checks or attack rolls.</p>
+      <p> When the spell ends you gain two levels of exhaustion, can't cast any spell for three days and for the next two weeks every time you cast a spell roll a d20, if then number rolled is equal to or less than the level of the spell cast the spell fails and you take the spells level in d6s of damage. Eg a 1st level spell deals 1d6 a 2nd level deals 2d6 etc.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">9</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 hour</set>
+      <set name="duration">10 minutes</set>
+      <set name="range">self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent"> A piece of iron one tenth the mass of the character, two gemstones each worth 100gp the same colour as the character's eyes, an amethyst worth 500gp, a ruby worth 500gp, 1.5 gallons of fine red wine worth at least 500gp, some of the caster's blood. All of these are consumed when the spell is cast.</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Ashkin's Spazzledazzle" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_ASHKINS_SPAZZLEDAZZLE">
+    <supports>Wizard, Bard, Sorcerer</supports>
+    <description>
+      <p>A crackling and sparkling sphere appears at a point of your choice within range. This hollow sphere has a radius of 10ft, and the fire that it is composed of heavily obscures vision through the border of the sphere.</p>
+      <p>All creatures within 30ft of the sphere must make a Constitution saving throw against the bright light of the sphere, stunning them until the end of their next turn on a failure. Creatures that are sensitive to light have disadvantage on this saving throw. Succeeding this saving throw renders a creature immune to this spell's stunning effect for 24 hours.</p>
+      <p>The border of the sphere is made entirely of fire. Any creature crossing this threshhold must make a Constitution saving throw to resist the flames, taking 3d6 fire damage on a failure, and half as much on a success.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">2</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 minute</set>
+      <set name="range">60 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent"> a small multichromatic crystal or seashell </set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Astral Cannon" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_ASTRAL_CANNON">
+    <supports>Wizard</supports>
+    <description>
+      <p>You conjure a beam of astral energies that emanates from you in 100 foot line, 5 feet wide. All creatures in this area of effect must make a Dexterity Saving Throw. On a failure, creatures take 10d6 force damage. On a success, a creature takes half damage.</p>
+      <p>At Higher Levels. When you cast this spell using a spell slot of 7th level or higher, increase the size of the damage die the spell uses by one for each slot level beyond 6th.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">6</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">Self(100 foot line)</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Attract" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_ATTRACT">
+    <supports>Wizard, Sorcerer, Warlock, Bard</supports>
+    <description>
+      <p>When you cast this spell, target one Small or Tiny object that you can see. If the target is 200 feet or less away from you, it flies towards you in a straight line. If the target is more than 200 feet away from you, it flies 200 feet towards you each turn that you concentrate on this spell in a straight line. If an obstacle stands between the object and you, the object hits the obstacle, the spell ends, and unless the object was grabbed or kept midair by some mean, it falls to the ground and takes 1d6 damage for every ten feet it fell.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Conjuration</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 minute</set>
+      <set name="range">sight</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Aura of Blades" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_AURA_OF_BLADES">
+    <supports>Wizard, Sorcerer, Warlock</supports>
+    <description>
+      <p>You conjure up a barrier, around yourself, made up of small spinning blades. Any creature within 5 feet of you, takes 4d6 slashing damage when it enters the spell's area for the first time on a turn and starts it’s turn there. If an attack is made by anyone within 5 ft of you they must succeed on a Constitution saving throw or they receive disadvantage on the attack.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">3</set>
+      <set name="school">Conjuration</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 minute</set>
+      <set name="range">Self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Aura of Embers" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_AURA_OF_EMBERS">
+    <supports>Paladin</supports>
+    <description>
+      <p>You radiate an aura of comforting warmth out to a range of 30 feet, and for the duration this aura moves with you, centered on you. Your body glows with dim light out to a range of 30 feet. You and every nonhostile creature in this range has resistance to cold damage and can comfortably endure even the coldest of climates.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">3</set>
+      <set name="school">Abjuration</set>
+      <set name="time">1 action</set>
+      <set name="duration">8 hours</set>
+      <set name="range">Self(30 Foot radius)</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Aura of Fate" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_AURA_OF_FATE">
+    <supports>Bard, Cleric, Warlock</supports>
+    <description>
+      <p>Roll a d8 when you cast the spell, every turn a friendly creature starts in the aura they heal that many hit points. Eg. if you roll a 1 a creature will gain 1 hp every turn they start in the Aura.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">2</set>
+      <set name="school">Abjuration</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 minute</set>
+      <set name="range">Self(30 Foot radius)</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Aura of Victory" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_AURA_OF_Victory">
+    <supports>Paladin</supports>
+    <description>
+      <p>Righteous fury radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. Each nonhostile creature in the aura (including you) deals an extra 1d4 force damage whenever it hits with a melee weapon attack. Additionally, you can use a bonus action to grant one creature in the aura (including you) advantage on the first Strength-based melee attack it makes before the end of your next turn.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">4</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 action</set>
+      <set name="duration">10 minute</set>
+      <set name="range">Self(30 Foot radius)</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Babu Slime" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_BABU_SLIME">
+    <supports>Druid, Wizard</supports>
+    <description>
+      <p>You begin to sweat an acidic slime from your pores that damages your attackers. For the duration, if a creature hits you with an unarmed strike or a melee weapon attack that is part of its body, it must make a Constitution saving throw. The attacking creature take 2d8 acid damage on a failed save, or half as much damage on a successful one. If the attacking creature makes multiple attacks as part of one action, it only takes damage from the first attack that hits</p>
+      <p>At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 minute</set>
+      <set name="range">Self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Ball Lightning" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_BALL_LIGHTINING">
+    <supports>Druid, Wizard,Sorcerer,Warlock</supports>
+    <description>
+      <p>A medium-sized pulsating sphere of pure lightning energy is conjured at your target location. The sphere cannot be attacked or interacted with in any other way, but can be nullified by dispel magic, antimagic field or similar effects.</p>
+      <p>At the start of each of your turns, bolts of electricity target up to 1d4 creatures in a 40ft range of the sphere. The sphere makes a ranged spell attack against each target creature with a proficiency bonus equal to your spell proficiency. On a hit, each target takes 2d8 lightning damage.</p>
+      <p>As part of your turn, you can both move the sphere up to 30ft in any direction, and concentrate its attack on one creature, guaranteeing that its next attack targets at least that creature. You can also choose to detonate the sphere prematurely, ending the spell and dealing 3d8 lightning damage in a 20ft radius of the sphere.</p>
+      <p>At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, the lightning damage of this spell (both on detonation and the lightning bolts) increases by 1d8 per slot level above 2nd.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">2</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 minute</set>
+      <set name="range">60 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+
+  <element name="Ballistakinesis" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_BALLISTAKINESIS">
+    <supports>Druid, Wizard</supports>
+    <description>
+      <p>You gain the ability to manipulate the trajectory and force of physical projectiles by thought. For the duration of the spell, ranged weapon attacks are made against you at disadvantage, and you make the first ranged weapon attack roll on each of your turns with advantage.</p>
+      <p>When you take damage from a ranged weapon attack, you can use your reaction to reduce the damage of the attack to 0 and re-direct the projectile, making a ranged spell attack against a creature or object within 120 feet of you as part of that reaction. On a hit, you deal damage to the target as if it was the original target of the attack you re-directed, plus an extra 5d8 force damage. When you do so, the spell ends.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">5</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 minute</set>
+      <set name="range">Self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Bane Shot" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_BANE_SHOT">
+    <supports>Warlock, Wizard,Sorcerer</supports>
+    <description>
+      <p>You touch a ranged weapon that uses ammunition, infusing it with the power of time. For the duration, when you attack with the weapon and hit, the target must make a Constitution saving throw. It takes an extra 5d6 piercing damage on a failed save, or half as much on a successful one.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">4</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 bonus action</set>
+      <set name="duration">2 rounds</set>
+      <set name="range">touch</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Beastial Bloodlust" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_BEASTIAL_BLOODLUST">
+    <supports>Wizard,Sorcerer,Warlock,Ranger,Druid,Bard,Cleric</supports>
+    <description>
+      <p>You whisper arcane words that attempt to awaken a target's primal bloodlust and beastly nature. This spell has no effect on creatures with an Intelligence score of 5 or lower and constructs. The target must make an Intelligence or Wisdom save, your choice as to which they roll. On a failed save, an overwhelming bloodlust overcomes the target and causes them to see no difference between friend or foe. On a successful save, nothing happens.</p>
+      <p class="indent"></p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Enchantment</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 minute</set>
+      <set name="range">30 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent" >A vial of blood from an animal</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">true</set>
+    </setters>
+  </element>
+
+  <element name="Bend Perspective" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_BEND_PERSPECTIVE">
+    <supports>Wizard,Sorcerer,Warlock</supports>
+    <description>
+      <p>Your vision shifts as if you were standing in a different spot. Choose a point within the spell's range, this point cannot be through solid barriers but it can be around corners or in the air to gain a birds eye view. You can switch between your perspective and the new one and then back again as bonus action. While you are viewing You can move this perspective at a rate of 10 feet per round, but doing so requires your action. You cannot move this perspective farther away from you than the maximum range</p>
+      <p class="indent">At Higher Levels. When you cast this spell using a spell slot of 2nd or higher add one minute to the duration and add 10 feet to the maximum range for each spell slot over first.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Divination</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 minute</set>
+      <set name="range">30 feet</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  
+  <element name="Black Arrow" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_BLACK_ARROW">
+    <supports>Ranger</supports>
+    <description>
+      <p>For the duration, any time you hit with a ranged weapon attack, you deal an extra 1d6 necrotic damage. If this attack reduces a Medium or Small humanoid to 0 hit points, the humanoid must succeed on a Constitution saving throw or immediately be raised as skeleton, as if you had cast animate dead.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">4</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 minute</set>
+      <set name="range">Self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Blade Lightning" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_BLADE_LIGHTNING">
+    <supports>Cleric, Wizard, Sorcerer, Warlock</supports>
+    <description>
+      <p>You create a sword made from lightning for the duration. This sword uses the statistics of a longsword and deals an additional 3d6 lightning damage on a hit. You are proficient with this longsword. The sword disappears if you let go of it, but you can call it back to your hand as a bonus action.</p>
+      <p>At Higher Levels. When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d6 for each slot level above 4th.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">4</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 hour</set>
+      <set name="range">Self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent"> A twig from a tree that has been struck by lightning</set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Blade of Grass" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_BLADE_OF_GRASS">
+    <supports>Druid</supports>
+    <description>
+      <p>You imbue one or two blades of grass with nature's power. For the duration, they become sickles, and you can use your spellcasting ability instead of Strength for attack and damage rolls using these weapons. They are considered to be magical weapons. If you let go of a of a sickle created by this spell, the spell ends for it, and it reverts to a nonmagical blade of grass. The spell also ends if you cast it again.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">0</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 bonus action</set>
+      <set name="duration">1 minute</set>
+      <set name="range">touch</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a blade of grass</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Blast" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_BLAST">
+    <supports>Sorcerer, Wizard, Warlock, Bard, Cleric, Druid</supports>
+    <description>
+      <p>You create an explosion from your hands that shoots outwards, the damage varies depending on the range of the blast. You can make an attack roll as a Touch spell, this will deal 1d12 force damage, 1d10 damage at 10 feet away, 1d8 at 20 feet, 1d6 at 30 feet, and 1d4 at 60 feet, you can also make an attack in a 10 foot cone which forces creatures within range to make a dexterity saving throw or take 1d6 force damage each. Additionally, you can use the spell to launch yourself away from your blast up to 10 feet instead of making an attack. When casting as a Touch spell against an object or item, the damage dealt is doubled. When rolling a 1 on your attack roll you are knocked prone from the recoil of the misfire.</p>
+      <p class="indent">At Higher Levels. This spell's damage increases by 1 die and the distance you can launch yourself by 10 feet when you reach 5th level (20 feet), 11th level (30 feet), and 17th level (40 feet).</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">0</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">Various</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Blazing Slash" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_BLAZING_SLASH">
+    <supports>Sorcerer, Wizard</supports>
+    <description>
+      <p>With a flourish, you swipe your hand through the air to bring a slash of scorching heat into a creature you try to touch. Make a melee spell attack roll against the target. On a hit, the target takes 1d4 fire damage and 1d4 slashing damage.</p>
+      <p class="indent">At Higher Levels. This spell's fire damage and slashing damage both increase by 1d4 when you reach 5th level, 11th level, and 17th level.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">0</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">Touch</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent"></set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+
+  <element name="Blood Blade" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_BLOOD_BLADE">
+    <supports>Sorcerer, Wizard, Warlock, Cleric</supports>
+    <description>
+      <p>You create a blade out of your own blood to use as a weapon.</p>
+      <p class="indent">You lose hit points equal to 1d6 plus your spellcasting ability modifier, and create your choice of a dagger, shortsword, or longsword that is made up of your own blood in your free hand. The weapon is magical, and you can use your spellcasting ability for the attack and damage rolls of melee attacks using that weapon. When the spell ends, the weapon becomes just a puddle of blood. The spell ends if you let go of the weapon.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">0</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 bonus action</set>
+      <set name="duration">1 minute</set>
+      <set name="range">Self</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Blood Spear" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_BLOOD_SPEAR">
+    <supports>Wizard,Sorcerer,Warlock</supports>
+    <description>
+      <p>You draw upon your own life force and manifest it into a spear . You lose 1d4 hit points and can make a ranged spell attack on a target within 60 ft of you. On a hit the target takes 1d6 piercing damage and 1d6 necrotic damage plus the damage you dealt to yourself. Alternatively you can make a melee spell on any target within 5 ft. On a hit the target takes 1d6 piercing damage and 1d6 necrotic damage plus the damage you dealt to yourself.</p>
+      <p class="indent">At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher the damage increases to 1d8 piercing damage and 2d6 necrotic damage, you can also sacrifice an additional 1d4 hit points and add this to the total damage.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">60 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent" >A needle or blade to draw blood </set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Body Enhancement" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_BODY_ENHANCEMENT">
+    <supports>Wizard,Bard,Druid</supports>
+    <description>
+      <p>You touch a creature and bestow upon it an all encompassing physical buff. The target gains the following effects until the spell ends.</p>
+      <p class="indent">Strength of an Ox. The target has advantage on Strength checks and Strength saving throws.</p>
+      <p class="indent">Quick as a Falcon. The target has advantage on Dexterity checks and Dexterity saving throws</p>
+      <p class="indent">Sturdy as a Willow. The target has advantage on Constitution checks and Constitution saving throws.</p>
+      <p class="indent">Speed of a Cheetah. The target's movement speed is increased by 10 feet and moving through nonmagical difficult terrain costs them no extra movement.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">2</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 minute</set>
+      <set name="range">touch</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent" >A small weight</set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Bodysnatch" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_BODYSNATCH">
+    <supports>Wizard,Sorcerer,Bard,Warlock</supports>
+    <description>
+      <p>This spell allows the user to touch a corpse and turn it into a disguise. Once the disguise is worn, the wearer becomes functionally identical in appearance to how the deceased appeared in life, unless the corpse is older than 1 day at which point the disguise will show signs of decay and not hold up under inspection. The disguise can also only be worn by wearers of the same size class. After 24 hours, the disguise will return to being a corpse and be too worn out to be used as a disguise again.</p>
+      <p class="indent">At Higher Levels: For every spell slot level past 1st level, you can use this spell on a creature one size category smaller or larger than you.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 day</set>
+      <set name="range">touch</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Bolt of Time" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_BOLT_OF_TIME">
+    <supports>Warlock,Sorcerer,Wizard</supports>
+    <description>
+      <p>A beam of energy with an indigo hue streaks towards a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 force damage and can't take a bonus action on its next turn.</p>
+      <p class="indent">This spell's damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10).</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">0</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">120 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Boreal Strike" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_BOREAL_STRIKE">
+    <supports>Sorcerer, Wizard, Warlock, Cleric, Bard, Druid</supports>
+    <description>
+      <p>Your blade emanates a misty cold aura and freezes all in its path.</p>
+      <p class="indent">As part of the action used to cast this spell, you must make a melee attack with a weapon against one creature within the spell's range, otherwise the spell fails. On a hit, the target suffers the attack's normal effects, takes an extra 1d6 cold damage, and its speed is reduced by 10 feet until the start of your next turn.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">0</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 minute</set>
+      <set name="range">Self</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Charged Weapon" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_CHARGED_WEAPON">
+    <supports>Wizard,Sorcerer,Warlock</supports>
+    <description>
+      <p>You empower yourself with arcane energy. Until the spell ends, your weapon attacks deal an extra 1d6 force damage on a hit.</p>
+      <p class="indent"></p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 bonus action</set>
+      <set name="duration">1 minute</set>
+      <set name="range">self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Colour" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_COLOUR">
+    <supports>Wizard,Sorcerer,Warlock,Bard</supports>
+    <description>
+      <p>You permanently change the color of cloth, leather, or any other inanimate object. The time it takes to color the item varies on the complexity of the color: changing the entire item to a single color takes 1 action, but patterns or variations of color require you to trace the design you wish on the item with your finger while picturing the colors you desire, a process that may take several minutes.</p>
+      <p class="indent"></p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Illusion</set>
+      <set name="time">Varied</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">touch</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Corrosive Hands" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_CORROSIVE_HANDS">
+    <supports>Wizard</supports>
+    <description>
+      <p>As you hold your hands together forming a cup pointed outwards, a thin spray of corrosive liquid shoots forth from your outstretched fingertips. Each creature in a 15-foot cone must make a Dexterity saving throw. A creature takes 3d6 acid damage on a failed save, or half as much damage on a successful one. The acid also corrodes any metallic objects in the area that aren’t being worn or carried.</p>
+      <p class="indent">At Higher Levels. When you cast this spell using a spell slot of 2 or higher the damage increases by 1d6 for each slot level above 1st.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">15 foot cone</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Countertrip" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_COUNTERTRIP">
+    <supports>Wizard,Warlock,Sorcerer</supports>
+    <description>
+      <p>You interrupt a creature in the process of casting a cantrip. The creature's spell automatically fails, and has no effect.</p>
+      <p class="indent"></p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Abjuration</set>
+      <set name="time">1 reaction</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">60 feet</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Death Blossom" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_DEATH_BLOSSOM">
+    <supports>Cleric</supports>
+    <description>
+      <p>You can only activate this spell once you've been attacked, you can use your reaction to bloom black roses from your skin that deal 2d6 necrotic damage to anyone in melee range.</p>
+      <p class="indent">At Higher Levels. When you cast this spell using a spell slot of 2 or higher, the damage increases by 1d6 for each spell slot above 1st.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 reaction</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">5 feet radius</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Death Watch" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_DEATH_WATCH">
+    <supports>Cleric</supports>
+    <description>
+      <p>Using the foul sight granted by the powers of unlife, you can determine the condition of creatures near death within the spell's range. You instantly know whether each creature within the area is dead, dying (25% or less HP), wounded (50% or less HP), Undead, Neither alive nor dead (constructs)</p>
+      <p class="indent">It can be blocked by thick material such as 1 foot of stone or wood, a thin sheet of metal like a door or a couple of feet of dirt.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 action</set>
+      <set name="duration">10 minutes</set>
+      <set name="range">30 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Earthen Bullet" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_EARTHEN_BULLET">
+    <supports>Sorcerer, Wizard, Druid</supports>
+    <description>
+      <p>Choose a point you can see on a surface of loose earth within range. There, a small patch of earth swirls briefly before hurling a clod of hardened dirt and stone towards a creature or object within 30 feet. Make a ranged spell attack against the creature or object. On a hit, the target takes 1d6 + 2 points of bludgeoning damage.</p>
+      <p class="indent">At Higher Levels. The spell's damage increases by 1d6 + 2 when you reach 5th level (2d6 + 4), 11th level (3d6 + 6), and 17th level (4d6 + 8).</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">0</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">60 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Elemental Blast" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_ELEMENTAL_BLAST">
+    <supports>Sorcerer, Wizard, Druid</supports>
+    <description>
+      <p>You form a ball of energy that gathers elemental energy around it and then sends that elemental blast at a creature or object. Make a ranged spell attack against the target. On a hit, the target takes 1d8 damage of a type determined by rolling a d6.</p>
+      <p> 1: Cold </p>
+      <p> 2: Fire </p>
+      <p> 3: Lightning </p>
+      <p> 4: Acid </p>
+      <p> 5: Poison </p>
+      <p> 6: Thunder </p>
+      <p class="indent">This spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">0</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">60 feet</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Ember Strike" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_EMBER_STRIKE">
+    <supports>Sorcerer, Wizard, Druid, Warlock, Cleric</supports>
+    <description>
+      <p>Drawing from the air around your weapon, it lights aflame as you strike.</p>
+      <p>As part of the action used to cast this spell, you must make a attack with a weapon against one creature within the spell's range, otherwise the spell fails. On a hit, the target suffers the attack's normal effects and deals extra damage equal to your spellcasting modifier as Fire damage.</p>
+      <p class="indent">The spell’s damage increases by 1d8 when you reach 5th level (1d8 + your spellcasting modifier), 11th level (2d8 + your spellcasting modifier), and 17th level (3d8 + your spellcasting modifier).</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">0</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">30 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent" > a weapon</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Entropy" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_ENTROPY">
+    <supports>Sorcerer, Wizard, Druid, Warlock</supports>
+    <description>
+      <p>You create a point of entropy in your hand. Make a melee spell attack against a creature you can touch. On a hit, the target takes 1d8 force damage. The spell's damage is doubled if the target is prone, stunned, grappled, restrained, or incapacitated, or if the target's speed is reduced to 0 and against structures and items.</p>
+      <p class="indent">At Higher Levels. This spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">0</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">Touch</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Energy Beat" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_ENERGY_BEAT">
+    <supports>Cleric,Paladin</supports>
+    <description>
+      <p>You create a mote of radiant light that hovers above your head. It lasts for the duration.</p>
+      <p>When the mote appears, you make a ranged spell attack against a creature of your choice within 30 feet of you. On a hit, the target takes 1d8 radiant damage. Until the spell ends, you can use a bonus action on each of your turns to repeat this attack against the same target or a different one.</p>
+      <p class="indent"></p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 minute</set>
+      <set name="range">30 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent" >a mirror </set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Erase" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_ERASE">
+    <supports>Sorcerer,Wizard</supports>
+    <description>
+      <p>Remove writings of either magical or mundane nature from a scroll or from one or two pages of paper, parchment, or similar surfaces.</p>
+      <p>With this spell, you can also remove spells similar to Glyph of Warding, Arcane Runes, Illusory Script or a Symbol spell from surfaces . Nonmagical writing is automatically erased if you touch it and no one else is holding it. Otherwise, the chance of erasing nonmagical writing must be determined by rolling percentile dice (1d100). On a roll of 90 or less, the spell succeeds in erasing the nonmagical writing despite someone holding the source of the writing.</p>
+      <p>Magic writing must be touched to be erased, and you also must succeed on an Intelligence (Arcana) check. The DC equals 10 + the spell’s level. On a successful check, the script or spell is erased. If you fail to erase glyphs of warding, arcane runes or the like, you accidentally activate it instead.</p>
+      <p class="indent"></p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">30 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="False Tracks" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_FALSE_TRACKS">
+    <supports>Ranger,Druid</supports>
+    <description>
+      <p>For the duration of this spell, your footprints are those of a normal animal of your choice. If part of your clothes or hair get snagged on undergrowth, it will appear to be bits of animal fur. Dropped objects do not change their appearance. When the spell ends, your footprints and snagged clothing change resume their normal appearance.</p>
+      <p class="indent"></p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Illusion</set>
+      <set name="time">1 action</set>
+      <set name="duration">10 minutes</set>
+      <set name="range">self</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Fiery Disengage" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_FIERY_DISENGAGE">
+    <supports>Sorcerer, Wizard, Cleric</supports>
+    <description>
+      <p>This spell can be cast as a reaction after taking damage from a melee attack. When cast, this spell propels you 5ft upwards and 5ft backwards, dealing 1d4 fire damage- if they fail a dexterity saving throw- to any targets that were within melee range of you when the spell was cast. This spell provokes attacks of oppurtunity if the target(s) succeeds on the dexterity saving throw.</p>
+      <p class="indent">At Higher Levels. When you cast this spell at a higher level, the damage increases to 2d4 at 5th level. This increases to 3d4 damage, and 10ft distance backwards at 11th level. And this increase again to 4d4 damage at 17th level.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">0</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 reaction</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">Self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent" > Ash </set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Fits O' Sadness" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_FITS_O'_SADNESS">
+    <supports>Bard,Cleric,Paladin,Sorcerer,Warlock,Wizard,Ranger,Druid</supports>
+    <description>
+      <p>Choose a humanoid that you can see within range. The target must succeed on a Wisdom saving throw or be retrained by fits of crying for the duration. At the end of each of its turns the target can make another Wisdom saving throw. On a success, the spell ends on the target. If still affected after three rounds, on the third failed save, the target also goes prone from the emmence sadness and crying.</p>
+      <p class="indent">At Higher Levels. When you cast this spell using a spell slot of 2nd or higher you can target one additional humanoid for each slot above 1st. The humanoids must be within 30 feet of each other when you target them.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Enchantment</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 minute</set>
+      <set name="range">60 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent" >a black feather </set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Flash Powder" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_FLASH_POWDER">
+    <supports>Sorcerer, Wizard, Bard, Warlock</supports>
+    <description>
+      <p>A burst of powder that explodes, confusing and harming a creature within range. The target must succeed on a Dexterity saving throw or take 1d4 force damage and have disadvantage on attack rolls until the end of your next turn.</p>
+      <p class="indent">This spell's damage increases by 1d4 when you reach 5th level (2d4), 11th level (3d4), and 17th level (4d4).</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">0</set>
+      <set name="school">Conjuration</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">30 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Force" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_FORCE">
+    <supports>Wizard, Bard, Cleric</supports>
+    <description>
+      <p>You use force energy to move, hold, suspend or push over an object or target within range, without being detected. You can also make a ranged spell attack to create a Force Bolt against a creature for 1d6 + spellcasting modifier of Force Damage, or even try and topple or push back a target for 1d6 + spellcasting modifier of Force damage, but the target must roll a Strength save against your DC save. On a failed save the target may be knocked prone or pushed back 10 feet either of your choosing</p>
+      <p>For longer effects such as holding heavier objects or holding something back, the caster must concentrate on the spell or use spell splots depending on the situation.</p>
+      <p class="indent">This spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">0</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">60 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Forcewave" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_FORCEWAVE">
+    <supports>Sorcerer, Wizard, Warlock, Prism</supports>
+    <description>
+      <p>You launch an invisible wave of force that slams into a creature in range. The target must succeed on a Strength saving throw or take 2d12 force damage and be knocked prone.</p>
+      <p class="indent">At Higher Levels. When you cast this spell using a spell slot of 2rd or higher, the damage increases by 1d12 for each spell slot level above 1st.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">60 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Fortify" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_FORTIFY">
+    <supports>Bard, Cleric, Druid</supports>
+    <description>
+      <p>Choose a target that you could touch in melee range, this target gains 1d4 temporary hit points</p>
+      <p class="indent">Casting as a 1st level spell rather than a cantrip changes the effect to add a one round +1 to AC</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">0</set>
+      <set name="school">Abjuration</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 round</set>
+      <set name="range">Touch</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Glare" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_GLARE">
+    <supports>Cleric</supports>
+    <description>
+      <p>A small beam of holy light is directed from you towards an enemy. Make a ranged spell attack. On a hit, the target takes 1d8 radiant damage. Glare illuminates the area 30 feet around its travel path if going through darkness or dim light.</p>
+      <p class="indent"></p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">0</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">120 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Gravity Force" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_GRAVITY_FORCE">
+    <supports>Wizard, Druid</supports>
+    <description>
+      <p>You use gravitational energy to forcefully push or pull an object or creature. If your target is a creature, you may make a ranged spell attack to throw a "Force Bolt" at the creature. On a hit the creature takes 1d6 Force Damage. Regardless, the target must must make a Strength saving throw against your spell save DC. On a failed save the target is pushed or pulled (your choice) 10 ft.</p>
+      <p class="indent">This Force Bolt's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">0</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">60 feet</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Hellscape" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_HELLSCAPE">
+    <supports>Wizard, Sorcerer, Druid, Cleric, Warlock</supports>
+    <description>
+      <p>You utter words in the most ancient of languages and mould the earth to mimic the layers of hell</p>
+      <p class="indent">All terrain in this spells range becomes slightly charred, any creatrue that ends their turn on this terrain must make a DC15 dexterity save or take 1d8 fire damage. Any creature in the spells range when it is cast must make a DC15 dexterity check or take 3d8 fire damage, any creature that enters the spells range after it has been cast must make a DC15 dexterity check or take 3d8 fire damage. Any fiends in the spells range get advantage on all checks as the terrain is similar to what they are used to.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">3</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 action</set>
+      <set name="duration">30 minutes</set>
+      <set name="range">40 foot radius</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent"> a pinch of ash and a shard of any shiny material </set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Iridescent Ray" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_IRIDESCENT_RAY">
+    <supports>Wizard, Sorcerer, Cleric</supports>
+    <description>
+      <p>You Scatter rays of light that scorch enemies. This spell cast 1d20 light rays, You direct each of the rays of light to strike a target though no two rays can hit the same target in a single casting. They each deal 1d4 -1 radiant damage</p>
+      <p class="indent"> If there are rays that are left over after all enemies are targetet then these rays vanish. The number of rays that can hit a target increases every two levels to 2 at 3rd level, 3 at 5th level etc.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">0</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">60 feet</set>
+      <set name="hasVerbalComponent">true </set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent" > any gemstone, glass or transparent object </set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Lightning Field" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_LIGHTNING_FIELD">
+    <supports>Wizard, Sorcerer, Warlock</supports>
+    <description>
+      <p>A cylindrical aura of electricity sweeps around you for a moment, jolting adjacent foes. Each creature within range, other than you, must succeed on a Dexterity saving throw or take 1d6 lightning damage.</p>
+      <p class="indent">This spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">0</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">5 feet ring</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent"/>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Minor Hellscape" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_MINOR_HELLSCAPE">
+    <supports>Wizard, Sorcerer, Druid, Cleric, Warlock</supports>
+    <description>
+      <p>You utter words in the most ancient of languages and summon terrain that faintly ressembles that of hell</p>
+      <p class="indent">All terrain within this spells range becomes minorly charred, any creature that ends their turn on the terrain must make a DC15 dexterity save or take 1d4 fire damage. Fiends get advantage on this save.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 action</set>
+      <set name="duration">2 minutes</set>
+      <set name="range">20 foot radius</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent"> a pinch of ash </set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Minor Step" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_MINOR_STEP">
+    <supports>Wizard, Sorcerer, Warlock</supports>
+    <description>
+      <p>You disappear in a cloud of harmless vapor of your choosing and reappear within ten feet of your original standing point.</p>
+      <p class="indent"></p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">0</set>
+      <set name="school">Conjuration</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">10 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent"/>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Minor Telekenesis" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_MINOR_TELEKENESIS">
+    <supports>Wizard, Sorcerer, Warlock, Druid</supports>
+    <description>
+      <p>When you cast the spell, you can exert your will on one object that you can see within range, causing the appropriate effect below. You can affect the same target round after round, or choose a new one at any time. If you switch targets, the prior target is no longer affected by the spell. You are able to "hold" up to five (5) pounds of an object, you may make a attack roll if the object you are holding is considered a weapon at a target for the weapon's damage if the target is within the range of the spell.</p>
+      <p class="indent"></p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">0</set>
+      <set name="school">Conjuration</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">30 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent"/>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Nightly Terrors" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_NIGHTLY_TERRORS">
+    <supports>Warlock</supports>
+    <description>
+      <p>Conjure a pair of formless, black entities next to you from the realm of nightmares that only you can initially see. As a bonus action, you can mentally choose a target within 30 feet of you for the entities to affect. Once chosen, the target can now see the entities and must make a Wisdom or Intelligence saving throw, your choice. On a failed save, the entities circle the target and form into the target's worst fears, dealing 2d4 psychic damage to the target. On a successful save, the target can no longer see the entities.</p>
+      <p class="indent">This spell's damage increases by 1d4 when you reach 5th level (3d4), 11th level (4d4), and 17th level (5d4).</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">0</set>
+      <set name="school">Conjuration</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 minute</set>
+      <set name="range">30 feet</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent"> a pinch of black salt </set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+ 
+  </element>
+
+  <element name="Perfect Hellscape" type="Spell" source="D&amp;D Wiki" id="ID_WIKI_PERFECT_HELLSCAPE">
+    <supports>Wizard, Sorcerer, Druid, Cleric, Warlock</supports>
+    <description>
+      <p>You utter words in the most ancient of languages and summon a mirror image of the planes of hell</p>
+      <p class="indent">All the terain within the range of this spell becomes charred land much like that of hell, it becomes difficult terrain and any creature that ends their turn on it has to make a DC15 dexterity save or be burned for 2d10 fire damage. All hostile creatures that are in the spells range when it is originally cast must make a DC20 dexterity save, if they fail they take 20d12 fire damage or half as much on a successful save, any creatures that enter the hellscape must make a DC20 dexterity save or take 10d10 fire damage. Any fiends in this spells range gain advantage on dexterity checks.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">9</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 hour</set>
+      <set name="range">100 foot radius</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent"> a handful of ash and a mirror </set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+</elements>
