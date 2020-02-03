@@ -7,6 +7,7 @@
 	</update>
     </info>
     <files>
-	<file name="FightingWithStyle.xml" url="https://raw.githubusercontent.com/JayPea00101010/AuroraAddons/master/addons/other/FightingWithStyle.xml" />  
+	<file name="FightingWithStyle.xml" url="https://raw.githubusercontent.com/JayPea00101010/AuroraAddons/master/addons/other/FightingWithStyle.xml" />
+	<file name="wiki-metamagic.xml" url="https://raw.githubusercontent.com/JayPea00101010/AuroraAddons/master/addons/other/wiki-metamagic.xml" />
     </files>
 </index>
