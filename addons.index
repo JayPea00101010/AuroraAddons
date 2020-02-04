@@ -23,7 +23,7 @@
 		<file name="spells.index" url="https://raw.githubusercontent.com/JayPea00101010/AuroraAddons/master/addons/spells.index"/>
     
 		<!-- equipment -->
-		<file name="equimpment.index" url="https://raw.githubusercontent.com/JayPea00101010/AuroraAddons/master/addons/equipment.index"/>
+		<file name="equipment.index" url="https://raw.githubusercontent.com/JayPea00101010/AuroraAddons/master/addons/equipment.index"/>
 
 		<!-- feats -->
 		<file name="feats.index" url="https://raw.githubusercontent.com/JayPea00101010/AuroraAddons/master/addons/feats.index"/>
