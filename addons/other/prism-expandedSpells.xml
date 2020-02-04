@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <update version="0.0.1">
+      <file name="prism-expandedSpells.xml" url="https://raw.githubusercontent.com/JayPea00101010/AuroraAddons/master/addons/other/prism-expandedSpells.xml" />
+    </update>
+  </info>
+  
+    <!--Prism Class Spell Extend-->
+    <element name="Prism Extended Spell List" type="Option" source="Homebrew" id="ID_BREW_OPTION_PRISM_EXTENDED_SPELL_LIST">
+        <description>
+            <p>Adds a bunch of spells to Prism Class.</p>
+        </description>
+        <sheet>
+            <description>Adds a bunch of spells to Prism Class.</description>
+        </sheet>
+    </element>
+
+    <append id="ID_DMSG_PLM_CLASS_PRISM">
+        <rules>
+            <grant type="Class Feature" id="ID_WOTC_CLASSFEATURE_PRISM_SPELLCASTING_EXPAND" requirements="ID_BREW_OPTION_PRISM_EXTENDED_SPELL_LIST" />
+        </rules>
+    </append>
+
+    <element name="Expanded Spell List" type="Class Feature" source="Unearthed Arcana: Class Feature Variants" id="ID_WOTC_CLASSFEATURE_PRISM_SPELLCASTING_EXPAND">
+        <description>
+            <p>Adds all of the Illumination, Shadow, and Void magic as spell options for the Prism.</p>
+        </description>
+        <sheet display="false">
+            <description></description>
+        </sheet>
+        <spellcasting name="Prism" extend="true">
+            <extend>ID_KBP_DMVM_SPELL_CONJURE_MINOR_VOIDBORN</extend>
+            <extend>ID_KBP_DMVM_SPELL_CONJURE_VOIDBORN</extend>
+            <extend>ID_KBP_DMVM_SPELL_CRUSHING_CURSE</extend>
+            <extend>ID_KBP_DMVM_SPELL_DESTRUCTIVE_RESONANCE</extend>
+            <extend>ID_KBP_DMVM_SPELL_GLIMPSE_OF_THE_VOID</extend>
+            <extend>ID_KBP_DMVM_SPELL_LIFE_DRAIN</extend>
+            <extend>ID_KBP_DMVM_SPELL_LIVING_SHADOWS</extend>
+            <extend>ID_KBP_DMVM_SPELL_MADDENING_WHISPERS</extend>
+            <extend>ID_KBP_DMVM_SPELL_NETHER_WEAPON</extend>
+            <extend>ID_KBP_DMVM_SPELL_PROTECTION_FROM_THE_VOID</extend>
+            <extend>ID_KBP_DMVM_SPELL_VOID_RIFT</extend>
+            <extend>ID_KBP_DMVM_SPELL_VOID_STRIKE</extend>
+            <extend>ID_KBP_DMVM_SPELL_WORD_OF_MISFORTUNE</extend>
+			
+            <extend>ID_KBP_DMIM_SPELL_BLACK_HAND</extend>
+            <extend>ID_KBP_DMIM_SPELL_BLACK_WELL</extend>
+            <extend>ID_KBP_DMIM_SPELL_CLOAK_OF_SHADOW</extend>
+            <extend>ID_KBP_DMIM_SPELL_COMPELLING_FATE</extend>
+            <extend>ID_KBP_DMIM_SPELL_FLICKERING_FATE</extend>
+            <extend>ID_KBP_DMIM_SPELL_GUIDING_STAR</extend>
+            <extend>ID_KBP_DMIM_SPELL_ICY_GRASP_OF_THE_ETHER</extend>
+            <extend>ID_KBP_DMIM_SPELL_LAST_RAYS_OF_THE_DYING_SUN</extend>
+            <extend>ID_KBP_DMIM_SPELL_ORB_OF_LIGHT</extend>
+            <extend>ID_KBP_DMIM_SPELL_SHADOW_BITE</extend>
+            <extend>ID_KBP_DMIM_SPELL_SHADOW_BLINDNESS</extend>
+            <extend>ID_KBP_DMIM_SPELL_SHADOW_HANDS</extend>
+            <extend>ID_KBP_DMIM_SPELL_SHADOW_TROVE</extend>
+            <extend>ID_KBP_DMIM_SPELL_SHIELD_OF_STAR_AND_SHADOW</extend>
+            <extend>ID_KBP_DMIM_SPELL_SILHOUETTE</extend>
+            <extend>ID_KBP_DMIM_SPELL_SLITHER</extend>
+            <extend>ID_KBP_DMIM_SPELL_STARBURST</extend>
+            <extend>ID_KBP_DMIM_SPELL_STARFALL</extend>
+            <extend>ID_KBP_DMIM_SPELL_STARRY_VISION</extend>
+            <extend>ID_KBP_DMIM_SPELL_STARS_HEART</extend>
+            <extend>ID_KBP_DMIM_SPELL_SUMMON_STAR</extend>
+			
+            <extend>ID_KBP_DMSM_SPELL_BANSHEE_WAIL</extend>
+            <extend>ID_KBP_DMSM_SPELL_BECOME_NIGHTWING</extend>
+            <extend>ID_KBP_DMSM_SPELL_BLACK_RIBBONS</extend>
+            <extend>ID_KBP_DMSM_SPELL_CALL_SHADOW_MASTIFF</extend>
+            <extend>ID_KBP_DMSM_SPELL_CLAWS_OF_DARKNESS</extend>
+            <extend>ID_KBP_DMSM_SPELL_CLOAK_IN_SHADOW</extend>
+            <extend>ID_KBP_DMSM_SPELL_CLOYING_DARKNESS</extend>
+            <extend>ID_KBP_DMSM_SPELL_CONJURE_SHADOW_TITAN</extend>
+            <extend>ID_KBP_DMSM_SPELL_DARK_DEMENTING</extend>
+            <extend>ID_KBP_DMSM_SPELL_DARK_PATH</extend>
+            <extend>ID_KBP_DMSM_SPELL_DARKBOLT</extend>
+            <extend>ID_KBP_DMSM_SPELL_DOUSE_LIGHT</extend>
+            <extend>ID_KBP_DMSM_SPELL_LEGION</extend>
+            <extend>ID_KBP_DMSM_SPELL_MALEVOLENT_WAVES</extend>
+            <extend>ID_KBP_DMSM_SPELL_NEGATIVE_IMAGE</extend>
+            <extend>ID_KBP_DMSM_SPELL_NIGHT_TERRORS</extend>
+            <extend>ID_KBP_DMSM_SPELL_SHADOW_MONSTERS</extend>
+            <extend>ID_KBP_DMSM_SPELL_SHADOW_PUPPETS</extend>
+            <extend>ID_KBP_DMSM_SPELL_SHADOW_REALM_GATEWAY</extend>
+            <extend>ID_KBP_DMSM_SPELL_UMBRAL_STORM</extend>
+            <extend>ID_KBP_DMIM_SPELL_SUMMON_STAR</extend>
+        </spellcasting>
+    </element>
+</elements>
