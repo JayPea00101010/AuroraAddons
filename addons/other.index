@@ -3,7 +3,7 @@
     <info>
 	<name>Addon Other</name>
 	<update version="0.0.4">
-		<file name=other.index" url="https://raw.githubusercontent.com/JayPea00101010/AuroraAddons/master/addons/other.index"/>
+		<file name="other.index" url="https://raw.githubusercontent.com/JayPea00101010/AuroraAddons/master/addons/other.index"/>
 	</update>
     </info>
     <files>
