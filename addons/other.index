@@ -9,6 +9,6 @@
     <files>
 	<file name="FightingWithStyle.xml" url="https://raw.githubusercontent.com/JayPea00101010/AuroraAddons/master/addons/other/FightingWithStyle.xml" />
 	<file name="wiki-metamagic.xml" url="https://raw.githubusercontent.com/JayPea00101010/AuroraAddons/master/addons/other/wiki-metamagic.xml" />
-    	<file name="wiki-metamagic.xml" url="https://raw.githubusercontent.com/JayPea00101010/AuroraAddons/master/addons/other/prism-expandedSpells.xml" />
+    	<file name="prism-expandedSpells.xml" url="https://raw.githubusercontent.com/JayPea00101010/AuroraAddons/master/addons/other/prism-expandedSpells.xml" />
     </files>
 </index>
