@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
   <info>
-    <update version="0.0.1">
+    <update version="0.0.2">
       <file name="prism-expandedSpells.xml" url="https://raw.githubusercontent.com/JayPea00101010/AuroraAddons/master/addons/other/prism-expandedSpells.xml" />
     </update>
   </info>
@@ -87,6 +87,30 @@
             <extend>ID_KBP_DMSM_SPELL_SHADOW_REALM_GATEWAY</extend>
             <extend>ID_KBP_DMSM_SPELL_UMBRAL_STORM</extend>
             <extend>ID_KBP_DMIM_SPELL_SUMMON_STAR</extend>
+            
+            <extend>ID_AEYANA_ATLAS_SPELL_BLACK_HOLE</extend>
+            <extend>ID_AEYANA_ATLAS_SPELL_CELESTIAL_PYRE</extend>
+            <extend>ID_AEYANA_ATLAS_SPELL_DAZZLING_GLEAM</extend>
+            <extend>ID_AEYANA_ATLAS_SPELL_FIELD_OF_STARS</extend>
+            <extend>ID_AEYANA_ATLAS_SPELL_GLEAM-EYE</extend>
+            <extend>ID_AEYANA_ATLAS_SPELL_GOLDEN_GLOW</extend>
+            <extend>ID_AEYANA_ATLAS_SPELL_GRAVITY_PULSE</extend>
+            <extend>ID_AEYANA_ATLAS_SPELL_GUIDING_LIGHT</extend>
+            <extend>ID_AEYANA_ATLAS_SPELL_ICY_RING</extend>
+            <extend>ID_AEYANA_ATLAS_SPELL_ILLUMINATE</extend>
+            <extend>ID_AEYANA_ATLAS_SPELL_INTENSIFY_GRAVITY</extend>
+            <extend>ID_AEYANA_ATLAS_SPELL_IONIZING_WIND</extend>
+            <extend>ID_AEYANA_ATLAS_SPELL_LUCKY_STARS</extend>
+            <extend>ID_AEYANA_ATLAS_SPELL_METEOR_STRIKE</extend>
+            <extend>ID_AEYANA_ATLAS_SPELL_MOONFALL</extend>
+            <extend>ID_AEYANA_ATLAS_SPELL_NIGHT_SKY</extend>
+            <extend>ID_AEYANA_ATLAS_SPELL_QUASAR</extend>
+            <extend>ID_AEYANA_ATLAS_SPELL_STARCROSSED_BINDING</extend>
+            <extend>ID_AEYANA_ATLAS_SPELL_STARLIGHT_SHROUD</extend>
+            <extend>ID_AEYANA_ATLAS_SPELL_STARLIGHT_SPEAR</extend>
+            <extend>ID_AEYANA_ATLAS_SPELL_TWINKLE</extend>
+            <extend>ID_AEYANA_ATLAS_SPELL_ULTRAVIOLET_PULSE</extend>
+            <extend>ID_AEYANA_ATLAS_SPELL_VACUUM</extend>
         </spellcasting>
     </element>
 </elements>
