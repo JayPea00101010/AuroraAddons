@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Circle of the Land bonus spell lists</name>
+		<description>Bonus Spell Lists for the Circle of the Land Druid</description>
+		<author url="https://www.reddit.com/r/UnearthedArcana/comments/izj6ql/six_supplementary_circle_of_the_land_druid_spell/">u/DoctorWhoops</author>
+		<update version="0.1.0">
+			<file name="land-spell-list.xml" url="PLACEHOLDER" />
+		</update>
+	</info>
+	
+	<element name="Badlands Circle" type="Archetype Feature" source="Reddit: Unearthed Arcana" id="ID_REDDIT_UA_ARCHETYPE_FEATURE_CIRCLE_SPELLS_BADLANDS">
+		<supports>Circle Spells</supports>
+		<description>
+			<p>At 3rd, 5th, 7th, and 9th level you gain access to circle spells connected to the land where you became a druid.</p>
+			<p class="indent">Once you gain access to a circle spell, you always have it prepared, and it doesn’t count against the number of spells you can prepare each day. If you gain access to a spell that doesn’t appear on the druid spell list, the spell is nonetheless a druid spell for you.</p>
+			<table>
+				<thead>
+					<tr><td>Druid Level</td><td>Spells</td></tr>
+				</thead>
+				<tr><td>3rd</td><td><em>Dust Devil, Earthbind</em></td></tr>
+				<tr><td>5th</td><td><em>Erupting Earth, Wall of Sand</em></td></tr>
+				<tr><td>7th</td><td><em>Fabricate, Wall of Fire</em></td></tr>
+				<tr><td>9th</td><td><em>Dawn, Far Step</em></td></tr>
+			</table>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Spell" id="ID_XGTE_SPELL_DUST_DEVIL" level="3" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_XGTE_SPELL_EARTHBIND" level="3" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_XGTE_SPELL_ERUPTING_EARTH" level="5" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_XGTE_SPELL_WALL_OF_SAND" level="5" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_FABRICATE" level="7" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_WALL_OF_FIRE" level="7" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_XGTE_SPELL_DAWN" level="9" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_XGTE_SPELL_FAR_STEP" level="9" spellcasting="Druid" prepared="true" />
+		</rules>
+	</element>
+	
+	<element name="Deadlands Circle" type="Archetype Feature" source="Reddit: Unearthed Arcana" id="ID_REDDIT_UA_ARCHETYPE_FEATURE_CIRCLE_SPELLS_DEADLANDS">
+		<supports>Circle Spells</supports>
+		<description>
+			<p>At 3rd, 5th, 7th, and 9th level you gain access to circle spells connected to the land where you became a druid.</p>
+			<p class="indent">Once you gain access to a circle spell, you always have it prepared, and it doesn’t count against the number of spells you can prepare each day. If you gain access to a spell that doesn’t appear on the druid spell list, the spell is nonetheless a druid spell for you.</p>
+			<table>
+				<thead>
+					<tr><td>Druid Level</td><td>Spells</td></tr>
+				</thead>
+				<tr><td>3rd</td><td><em>Locate Animals or Plants, Silence</em></td></tr>
+				<tr><td>5th</td><td><em>Life Transference, Revivify</em></td></tr>
+				<tr><td>7th</td><td><em>Blight, Death Ward</em></td></tr>
+				<tr><td>9th</td><td><em>Insect Plague, Negative Energy Flood</em></td></tr>
+			</table>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_LOCATE_ANIMALS_OR_PLANTS" level="3" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_SILENCE" level="3" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_XGTE_SPELL_LIFE_TRANSFERENCE" level="5" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_REVIVIFY" level="5" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_BLIGHT" level="7" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_DEATH_WARD" level="7" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_INSECT_PLAGUE" level="9" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_XGTE_SPELL_NEGATIVE_ENERGY_FLOOD" level="9" spellcasting="Druid" prepared="true" />
+		</rules>
+	</element>
+	
+	<element name="Deep Sea Circle" type="Archetype Feature" source="Reddit: Unearthed Arcana" id="ID_REDDIT_UA_ARCHETYPE_FEATURE_CIRCLE_SPELLS_DEEP_SEA">
+		<supports>Circle Spells</supports>
+		<description>
+			<p>At 3rd, 5th, 7th, and 9th level you gain access to circle spells connected to the land where you became a druid.</p>
+			<p class="indent">Once you gain access to a circle spell, you always have it prepared, and it doesn’t count against the number of spells you can prepare each day. If you gain access to a spell that doesn’t appear on the druid spell list, the spell is nonetheless a druid spell for you.</p>
+			<table>
+				<thead>
+					<tr><td>Druid Level</td><td>Spells</td></tr>
+				</thead>
+				<tr><td>3rd</td><td><em>Alter Self, Darkvision</em></td></tr>
+				<tr><td>5th</td><td><em>Slow, Water Breathing</em></td></tr>
+				<tr><td>7th</td><td><em>Evard’s Black Tentacles, Watery Sphere</em></td></tr>
+				<tr><td>9th</td><td><em>Maelstrom, Rary’s Telepathic Bond</em></td></tr>
+			</table>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_ALTER_SELF" level="3" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_DARKVISION" level="3" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_SLOW" level="5" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_WATER_BREATHING" level="5" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_EVARDS_BLACK_TENTACLES" level="7" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_XGTE_SPELL_WATERY_SPHERE" level="7" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_XGTE_SPELL_MAELSTROM" level="9" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_RARYS_TELEPATHIC_BOND" level="9" spellcasting="Druid" prepared="true" />
+		</rules>
+	</element>
+	
+	<element name="Jungle Circle" type="Archetype Feature" source="Reddit: Unearthed Arcana" id="ID_REDDIT_UA_ARCHETYPE_FEATURE_CIRCLE_SPELLS_JUNGLE">
+		<supports>Circle Spells</supports>
+		<description>
+			<p>At 3rd, 5th, 7th, and 9th level you gain access to circle spells connected to the land where you became a druid.</p>
+			<p class="indent">Once you gain access to a circle spell, you always have it prepared, and it doesn’t count against the number of spells you can prepare each day. If you gain access to a spell that doesn’t appear on the druid spell list, the spell is nonetheless a druid spell for you.</p>
+			<table>
+				<thead>
+					<tr><td>Druid Level</td><td>Spells</td></tr>
+				</thead>
+				<tr><td>3rd</td><td><em>Pass Without Trace, Rope Trick</em></td></tr>
+				<tr><td>5th</td><td><em>Nondetection, Speak with Plants</em></td></tr>
+				<tr><td>7th</td><td><em>Grasping Vine, Mordenkainen’s Private Sanctum</em></td></tr>
+				<tr><td>9th</td><td><em>Tree Stride, Far Step</em></td></tr>
+			</table>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_PASS_WITHOUT_TRACE" level="3" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_ROPE_TRICK" level="3" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_NONDETECTION" level="5" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_SPEAK_WITH_PLANTS" level="5" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_GRASPING_VINE" level="7" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_MORDENKAINENS_PRIVATE_SANCTUM" level="7" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_TREE_STRIDE" level="9" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_XGTE_SPELL_FAR_STEP" level="9" spellcasting="Druid" prepared="true" />
+		</rules>
+	</element>
+	
+	<element name="Savanna Circle" type="Archetype Feature" source="Reddit: Unearthed Arcana" id="ID_REDDIT_UA_ARCHETYPE_FEATURE_CIRCLE_SPELLS_SAVANNA">
+		<supports>Circle Spells</supports>
+		<description>
+			<p>At 3rd, 5th, 7th, and 9th level you gain access to circle spells connected to the land where you became a druid.</p>
+			<p class="indent">Once you gain access to a circle spell, you always have it prepared, and it doesn’t count against the number of spells you can prepare each day. If you gain access to a spell that doesn’t appear on the druid spell list, the spell is nonetheless a druid spell for you.</p>
+			<table>
+				<thead>
+					<tr><td>Druid Level</td><td>Spells</td></tr>
+				</thead>
+				<tr><td>3rd</td><td><em>Animal Messenger, Dust Devil</em></td></tr>
+				<tr><td>5th</td><td><em>Conjure Animals, Nondetection</em></td></tr>
+				<tr><td>7th</td><td><em>Fire Shield, Polymorph</em></td></tr>
+				<tr><td>9th</td><td><em>Awaken, Dawn</em></td></tr>
+			</table>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_ANIMAL_MESSENGER" level="3" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_XGTE_SPELL_DUST_DEVIL" level="3" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_CONJURE_ANIMALS" level="5" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_NONDETECTION" level="5" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_FIRE_SHIELD" level="7" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_POLYMORPH" level="7" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_AWAKEN" level="9" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_XGTE_SPELL_DAWN" level="9" spellcasting="Druid" prepared="true" />
+		</rules>
+	</element>
+	
+	<element name="Sky Circle" type="Archetype Feature" source="Reddit: Unearthed Arcana" id="ID_REDDIT_UA_ARCHETYPE_FEATURE_CIRCLE_SPELLS_SKY">
+		<supports>Circle Spells</supports>
+		<description>
+			<p>At 3rd, 5th, 7th, and 9th level you gain access to circle spells connected to the land where you became a druid.</p>
+			<p class="indent">Once you gain access to a circle spell, you always have it prepared, and it doesn’t count against the number of spells you can prepare each day. If you gain access to a spell that doesn’t appear on the druid spell list, the spell is nonetheless a druid spell for you.</p>
+			<table>
+				<thead>
+					<tr><td>Druid Level</td><td>Spells</td></tr>
+				</thead>
+				<tr><td>3rd</td><td><em>Gust of Wind, Levitate</em></td></tr>
+				<tr><td>5th</td><td><em>Fly, Thunderstep</em></td></tr>
+				<tr><td>7th</td><td><em>Locate Creature, Storm Sphere</em></td></tr>
+				<tr><td>9th</td><td><em>Cloudkill, Control Winds</em></td></tr>
+			</table>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_GUST_OF_WIND" level="3" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_LEVITATE" level="3" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_FLY" level="5" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_XGTE_SPELL_THUNDER_STEP" level="5" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_LOCATE_CREATURE" level="7" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_XGTE_SPELL_STORM_SPHERE" level="7" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_CLOUDKILL" level="9" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_XGTE_SPELL_CONTROL_WINDS" level="9" spellcasting="Druid" prepared="true" />
+		</rules>
+	</element>
+</elements>
