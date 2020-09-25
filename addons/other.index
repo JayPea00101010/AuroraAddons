@@ -2,11 +2,12 @@
 <index>
     <info>
 	<name>Addon Other</name>
-	<update version="0.0.5">
+	<update version="0.0.6">
 		<file name="other.index" url="https://raw.githubusercontent.com/JayPea00101010/AuroraAddons/master/addons/other.index"/>
 	</update>
     </info>
     <files>
+	<file name="land-spell-lists.xml" url="https://raw.githubusercontent.com/JayPea00101010/AuroraAddons/master/addons/other/land-spell-lists.xml" />
 	<file name="FightingWithStyle.xml" url="https://raw.githubusercontent.com/JayPea00101010/AuroraAddons/master/addons/other/FightingWithStyle.xml" />
 	<file name="wiki-metamagic.xml" url="https://raw.githubusercontent.com/JayPea00101010/AuroraAddons/master/addons/other/wiki-metamagic.xml" />
     	<file name="prism-expandedSpells.xml" url="https://raw.githubusercontent.com/JayPea00101010/AuroraAddons/master/addons/other/prism-expandedSpells.xml" />
