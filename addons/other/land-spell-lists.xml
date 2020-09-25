@@ -5,7 +5,7 @@
 		<description>Bonus Spell Lists for the Circle of the Land Druid</description>
 		<author url="https://www.reddit.com/r/UnearthedArcana/comments/izj6ql/six_supplementary_circle_of_the_land_druid_spell/">u/DoctorWhoops</author>
 		<update version="0.1.0">
-			<file name="land-spell-list.xml" url="PLACEHOLDER" />
+			<file name="land-spell-list.xml" url="https://raw.githubusercontent.com/JayPea00101010/AuroraAddons/master/addons/other/land-spell-list.xml" />
 		</update>
 	</info>
 	
